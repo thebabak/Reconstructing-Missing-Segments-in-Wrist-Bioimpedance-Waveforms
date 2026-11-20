@@ -47,6 +47,14 @@ before installing the other requirements. For SVG plotting, also install
 
 From the repository root:
 
+The recorded SHA-256 fingerprints require original file bytes. This release
+includes `.gitattributes` to disable automatic line-ending conversion. An
+explicit clone command is also available for Windows and historical tags:
+
+```sh
+git -c core.autocrlf=false clone https://github.com/thebabak/Reconstructing-Missing-Segments-in-Wrist-Bioimpedance-Waveforms.git
+```
+
 ```sh
 python -m unittest -v test_bioz_inpainting test_validated_benchmark test_synthetic_augmentation test_augmentation_engine
 python tools/verify_reference_results.py
