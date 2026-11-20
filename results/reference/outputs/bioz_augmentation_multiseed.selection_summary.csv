@@ -1,0 +1,13 @@
+condition,method,runs,median_epoch,min_epoch,max_epoch,selected_at_cap,patience_stops,budget_limited
+real_only_matched,unet,30,20.0,15,65,0,30,0
+real_only_matched,saits,30,12.5,5,120,1,29,1
+real_only_matched,cvae,30,30.0,15,85,0,30,0
+real_only_matched,cgan,30,25.0,15,70,0,30,0
+real_only_matched,flow,30,65.0,15,120,4,25,5
+real_only_matched,diffusion,30,75.0,5,115,0,28,2
+real_plus_synthetic,unet,30,35.0,15,60,0,30,0
+real_plus_synthetic,saits,30,15.0,5,50,0,30,0
+real_plus_synthetic,cvae,30,35.0,20,80,0,30,0
+real_plus_synthetic,cgan,30,35.0,20,60,0,30,0
+real_plus_synthetic,flow,30,65.0,5,120,2,28,2
+real_plus_synthetic,diffusion,30,37.5,5,120,2,28,2

@@ -1,0 +1,13 @@
+condition,method,selected_epoch,validation_mae,stopped_by_patience
+real_only_matched,unet,25,15.49152689184487,True
+real_only_matched,flow,110,15.878956482829162,False
+real_only_matched,diffusion,55,20.239267768281067,True
+real_only_matched,cvae,25,16.258015791855964,True
+real_only_matched,cgan,25,15.486711022764647,True
+real_only_matched,saits,15,35.258914055989116,True
+real_plus_synthetic,unet,35,14.788178328281035,True
+real_plus_synthetic,flow,5,38.91916292164971,True
+real_plus_synthetic,diffusion,90,21.174781635712005,True
+real_plus_synthetic,cvae,80,14.550510637569127,True
+real_plus_synthetic,cgan,35,15.065610430745522,True
+real_plus_synthetic,saits,15,35.2645134187896,True

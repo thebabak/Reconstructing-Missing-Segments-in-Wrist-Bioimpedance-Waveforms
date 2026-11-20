@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/WenjieDu/SAITS",
+  "commit": "660b87f19c1277065f314f24134f646229e89ca9",
+  "adaptations": [
+    "Relative imports under vendor.saits; only upstream masked_mae_cal retained from utilities to avoid unrelated plotting/sklearn dependencies."
+  ],
+  "files": {
+    "modeling/saits.py": {
+      "upstream_sha256": "7c52cbcff6d2a223f1e788efabf8d46ebc84f79d9d480d59ae76619b7d31a556",
+      "local_sha256": "95b314eea16a79dbabff607d2f01a22185a6bf530f20e4c78a932434161c8e65"
+    },
+    "modeling/layers.py": {
+      "upstream_sha256": "77bed4cee066db537aa6c738d7030580b561772678af4564cbf2ab77392b78b9",
+      "local_sha256": "35371901545fe24445ca0e90b7f9cdfe6fbcce1e82bfab127d1192a7b19a5f59"
+    },
+    "LICENSE": {
+      "upstream_sha256": "8921a1d45f975221acec71bfd4959549a710c561600c5723274a55d03f059283",
+      "local_sha256": "2530c017eae5312d22f4274ef1dd2740385bd40d0d1ff977f1768b6b8e0775a5"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "document_pages": 17,
+  "document_tables": 7,
+  "document_figures": 4,
+  "unit_tests_passed": 10,
+  "checkpoint_replay_subjects": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "replayed_detector_method_combinations": 648,
+  "validated_fold_records": 3240,
+  "validated_sensitivity_records": 29160,
+  "validated_window_records": 183600,
+  "primary_2s_periodic_mae": 15.222961734481338,
+  "primary_2s_periodic_f1": 0.6971453043448004,
+  "analysis_source_sha256": {
+    "work/summarize_validated.py": "d2146463a7950f7d5b7504cc1d55d181c9c63d6f669af89f048e2b05a3f6f741",
+    "work/plot_validated.py": "bd2829bf09e4a20e9d99bea6f5d5a6386426ae460d89596a0e82576c0025f031",
+    "work/raster_validated_figures.cjs": "e8d675eaae514094beac7d59f1f3f08bdb6491c1c3c014940259e3f288062ec2",
+    "work/build_validated_manuscript.py": "f8a845931bbb5b556d23a8ce2596bf995cd0c1c600a124fccac6263b938d3e13",
+    "work/verify_validated_manuscript.py": "700c2a2fe54a66e90bde9ca99f3c9445eb41dddadae6d83001c159b299cd6b54"
+  },
+  "document_sha256": "a8331895c835f834eb6c44857e36ae56099e443583ad0d2798e0586ca315fb59",
+  "render_backend": "Microsoft Word PDF export; page images inspected; packaged LibreOffice unavailable",
+  "reporting_revision": {
+    "completed_utc": "2026-11-18T15:55:26.798998+00:00",
+    "previous_document_sha256": "57defa1b996b991e3b361b3165e05c18e890a515175a3e63ca16412545842a44",
+    "changes": [
+      "Participant bootstrap method and all three periodic-minus-U-Net MAE intervals reported in main text",
+      "Abstract, discussion and conclusion aligned with descriptive uncertainty",
+      "Codex assistance with research code, manuscript and figure/table code disclosed before references"
+    ],
+    "experiments_rerun": false,
+    "bootstrap_replicates": 10000,
+    "bootstrap_participants": 6,
+    "bootstrap_contrasts_recomputed_from_raw_fold_metrics": true,
+    "numerical_document_audit_passed": true,
+    "visually_reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "human_author_and_submission_details_pending": true
+  },
+  "augmentation_extension_analysis": "outputs/bioz_augmentation_multiseed.analysis.json",
+  "augmentation_extension_numeric_audit": "passed",
+  "augmentation_extension_unit_tests_passed": 16,
+  "original_benchmark_outcomes_retained": true
+}

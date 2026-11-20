@@ -1,0 +1,7 @@
+method,median_epoch,min_epoch,max_epoch,at_epoch_cap,budget_limited_runs,patience_stops,runs
+unet,40.0,20,60,1,8,22,30
+saits,15.0,5,60,1,3,27,30
+cvae,50.0,5,60,4,17,13,30
+cgan,35.0,5,60,2,7,23,30
+flow,55.0,10,60,10,16,14,30
+diffusion,20.0,5,60,3,5,25,30

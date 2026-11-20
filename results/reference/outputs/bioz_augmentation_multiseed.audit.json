@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "cases": 30,
+  "generator_fits_independently_recomputed": 21,
+  "generated_datasets_reproduced": 60,
+  "selected_epochs_recomputed": 360,
+  "primary_fold_metrics_recomputed": 3240,
+  "window_metrics_recomputed": 183600,
+  "detector_grid_fold_records": 29160,
+  "checkpoint_models_replayed": 72,
+  "unit_tests_passed": 16,
+  "fixture_end_to_end_smoke": "passed",
+  "bootstrap_unit": "participant, after averaging seeds and masks",
+  "scope": "Same reused six-person cohort after a one-person pilot; exploratory, no external physiological validation."
+}

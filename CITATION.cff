@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the code or recorded numerical results."
+type: software
+title: "Wrist Bioimpedance Reconstruction Benchmark"
+authors:
+  - family-names: Bayanian
+    given-names: Babak
+  - family-names: Tarvirdizadeh
+    given-names: Bahram
+  - family-names: Alipour
+    given-names: Khalil
+  - family-names: Ghamari
+    given-names: Mohammad
+repository-code: "https://github.com/thebabak/wrist-bioz-reconstruction"
+url: "https://github.com/thebabak/wrist-bioz-reconstruction"
+version: "0.1.0"
+date-released: "2026-11-21"

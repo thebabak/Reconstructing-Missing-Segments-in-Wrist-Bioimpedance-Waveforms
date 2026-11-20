@@ -1,0 +1,1772 @@
+{
+  "repository": "https://github.com/thebabak/wrist-bioz-reconstruction",
+  "date": "2026-11-21",
+  "scientific_runner_bytes_preserved": true,
+  "reference_results": "Original saved numerical records; JSON workspace paths normalized for portability; numerical values and recorded source/data hashes preserved.",
+  "included_files": [
+    {
+      "source": "augmentation_case.py",
+      "public": "augmentation_case.py",
+      "source_sha256": "825fe6a86f691d1459f936848b8799a4600852abf60c4b440ebe8f38977d9dcb",
+      "public_sha256": "825fe6a86f691d1459f936848b8799a4600852abf60c4b440ebe8f38977d9dcb"
+    },
+    {
+      "source": "augmentation_engine.py",
+      "public": "augmentation_engine.py",
+      "source_sha256": "d006ac40c70269957a39464a9d0933df1ccbe991305e29659fbed880b292dbbe",
+      "public_sha256": "d006ac40c70269957a39464a9d0933df1ccbe991305e29659fbed880b292dbbe"
+    },
+    {
+      "source": "augmentation_sweep.py",
+      "public": "augmentation_sweep.py",
+      "source_sha256": "8d06fa872021c0edfd30a1ddeea26b1cfba19d49e50ae5a5011557af75a4fc96",
+      "public_sha256": "8d06fa872021c0edfd30a1ddeea26b1cfba19d49e50ae5a5011557af75a4fc96"
+    },
+    {
+      "source": "bioz_inpainting.py",
+      "public": "bioz_inpainting.py",
+      "source_sha256": "dad2e913d80b8b35c05fe61252e073c4ce2bf086ec6c2f4d64d920a71415d675",
+      "public_sha256": "dad2e913d80b8b35c05fe61252e073c4ce2bf086ec6c2f4d64d920a71415d675"
+    },
+    {
+      "source": "synthetic_augmentation.py",
+      "public": "synthetic_augmentation.py",
+      "source_sha256": "bc23d0d1e2048e13c83a908a4b8305adeb4c692ec6962cb5a7f54b54dc0ebae7",
+      "public_sha256": "bc23d0d1e2048e13c83a908a4b8305adeb4c692ec6962cb5a7f54b54dc0ebae7"
+    },
+    {
+      "source": "test_augmentation_engine.py",
+      "public": "test_augmentation_engine.py",
+      "source_sha256": "56fc4996ee2ef6d5f5dc2ec4590c032bcdeebffc5d900b59041137e311f0553a",
+      "public_sha256": "56fc4996ee2ef6d5f5dc2ec4590c032bcdeebffc5d900b59041137e311f0553a"
+    },
+    {
+      "source": "test_bioz_inpainting.py",
+      "public": "test_bioz_inpainting.py",
+      "source_sha256": "8528bcd68e2fa773263dbe4ca00387a0a635e9501b80941c820fbb91057a8f59",
+      "public_sha256": "8528bcd68e2fa773263dbe4ca00387a0a635e9501b80941c820fbb91057a8f59"
+    },
+    {
+      "source": "test_synthetic_augmentation.py",
+      "public": "test_synthetic_augmentation.py",
+      "source_sha256": "5d5a683b90ddb0a73f81b44d609850967881f6bd0811c492dbea460b7afbdcd8",
+      "public_sha256": "5d5a683b90ddb0a73f81b44d609850967881f6bd0811c492dbea460b7afbdcd8"
+    },
+    {
+      "source": "test_validated_benchmark.py",
+      "public": "test_validated_benchmark.py",
+      "source_sha256": "9a4a357e3a7bc218209d414be3c5aeb7747078f36e8219c03951d39e3d250cce",
+      "public_sha256": "9a4a357e3a7bc218209d414be3c5aeb7747078f36e8219c03951d39e3d250cce"
+    },
+    {
+      "source": "validated_benchmark.py",
+      "public": "validated_benchmark.py",
+      "source_sha256": "cfabee95bdc0ec56a350677be860f60ee507052104a69f7091e756091973fdd4",
+      "public_sha256": "cfabee95bdc0ec56a350677be860f60ee507052104a69f7091e756091973fdd4"
+    },
+    {
+      "source": "vendor/saits/LICENSE",
+      "public": "vendor/saits/LICENSE",
+      "source_sha256": "2530c017eae5312d22f4274ef1dd2740385bd40d0d1ff977f1768b6b8e0775a5",
+      "public_sha256": "2530c017eae5312d22f4274ef1dd2740385bd40d0d1ff977f1768b6b8e0775a5"
+    },
+    {
+      "source": "vendor/saits/__init__.py",
+      "public": "vendor/saits/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "vendor/saits/layers.py",
+      "public": "vendor/saits/layers.py",
+      "source_sha256": "35371901545fe24445ca0e90b7f9cdfe6fbcce1e82bfab127d1192a7b19a5f59",
+      "public_sha256": "35371901545fe24445ca0e90b7f9cdfe6fbcce1e82bfab127d1192a7b19a5f59"
+    },
+    {
+      "source": "vendor/saits/provenance.json",
+      "public": "vendor/saits/provenance.json",
+      "source_sha256": "19995371255ce04e56a4b65f114df19c215cce25f60c7b7a50c8d6cb139f1c1c",
+      "public_sha256": "19995371255ce04e56a4b65f114df19c215cce25f60c7b7a50c8d6cb139f1c1c"
+    },
+    {
+      "source": "vendor/saits/saits.py",
+      "public": "vendor/saits/saits.py",
+      "source_sha256": "95b314eea16a79dbabff607d2f01a22185a6bf530f20e4c78a932434161c8e65",
+      "public_sha256": "95b314eea16a79dbabff607d2f01a22185a6bf530f20e4c78a932434161c8e65"
+    },
+    {
+      "source": "vendor/saits/utils.py",
+      "public": "vendor/saits/utils.py",
+      "source_sha256": "ef12baabedcce24ee589656fecda3f33c88e30df38d91b91eb8035b903bfaafb",
+      "public_sha256": "ef12baabedcce24ee589656fecda3f33c88e30df38d91b91eb8035b903bfaafb"
+    },
+    {
+      "source": "work/audit_aug_sweep.py",
+      "public": "work/audit_aug_sweep.py",
+      "source_sha256": "569c950da1f5a03b380d095abd725e35b8f2c44a63e5dfdf0babac5d2abc1a81",
+      "public_sha256": "569c950da1f5a03b380d095abd725e35b8f2c44a63e5dfdf0babac5d2abc1a81"
+    },
+    {
+      "source": "work/audit_augmentation.py",
+      "public": "work/audit_augmentation.py",
+      "source_sha256": "bf608bbe94be9251462c88c909c98f5583018ebc0665237934473a7eaf2f9a47",
+      "public_sha256": "bf608bbe94be9251462c88c909c98f5583018ebc0665237934473a7eaf2f9a47"
+    },
+    {
+      "source": "work/audit_validated_predictions.py",
+      "public": "work/audit_validated_predictions.py",
+      "source_sha256": "955c9a84b6b8e552db80d3442d3ee4eadfa53f635b597ec01537244d2a544346",
+      "public_sha256": "955c9a84b6b8e552db80d3442d3ee4eadfa53f635b597ec01537244d2a544346"
+    },
+    {
+      "source": "work/plot_aug_sweep.py",
+      "public": "work/plot_aug_sweep.py",
+      "source_sha256": "405ee13c4de4c4245a3fb1bbcd9df7b1eaa3f1263d640e28001011dbbf7f3297",
+      "public_sha256": "405ee13c4de4c4245a3fb1bbcd9df7b1eaa3f1263d640e28001011dbbf7f3297"
+    },
+    {
+      "source": "work/plot_validated.py",
+      "public": "work/plot_validated.py",
+      "source_sha256": "bd2829bf09e4a20e9d99bea6f5d5a6386426ae460d89596a0e82576c0025f031",
+      "public_sha256": "bd2829bf09e4a20e9d99bea6f5d5a6386426ae460d89596a0e82576c0025f031"
+    },
+    {
+      "source": "work/summarize_aug_sweep.py",
+      "public": "work/summarize_aug_sweep.py",
+      "source_sha256": "86d41f45d4582b286039e39d002ca5a585cb26ba48f371dc39ec5e93fd9e052f",
+      "public_sha256": "86d41f45d4582b286039e39d002ca5a585cb26ba48f371dc39ec5e93fd9e052f"
+    },
+    {
+      "source": "work/summarize_validated.py",
+      "public": "work/summarize_validated.py",
+      "source_sha256": "d2146463a7950f7d5b7504cc1d55d181c9c63d6f669af89f048e2b05a3f6f741",
+      "public_sha256": "d2146463a7950f7d5b7504cc1d55d181c9c63d6f669af89f048e2b05a3f6f741"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.analysis.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.analysis.json",
+      "source_sha256": "7ceed0a3c34d54ad5cc8476095c6d337d9d666eeaf41a5a7a9ae8a7df5485a92",
+      "public_sha256": "7ceed0a3c34d54ad5cc8476095c6d337d9d666eeaf41a5a7a9ae8a7df5485a92"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.audit.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.audit.json",
+      "source_sha256": "5770698bc6469e13c16301565498645ca1307214a735961ca8d3cecf14b90015",
+      "public_sha256": "5770698bc6469e13c16301565498645ca1307214a735961ca8d3cecf14b90015"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.csv",
+      "source_sha256": "01af158e8a31adb623a31ad486d65ed3bdbb1cc77477f56920c8a8bd16696405",
+      "public_sha256": "01af158e8a31adb623a31ad486d65ed3bdbb1cc77477f56920c8a8bd16696405"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.paired.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.paired.csv",
+      "source_sha256": "67a530cfae09a58ad7ea72786b96e1f88c78e6e69192f4e5f2ea661b57bf12f5",
+      "public_sha256": "67a530cfae09a58ad7ea72786b96e1f88c78e6e69192f4e5f2ea661b57bf12f5"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.run.json",
+      "source_sha256": "3d7cee557b51b081074de7215aa2cc9549eeba8bdc48fb34b162d9b429a203e1",
+      "public_sha256": "8b6aa1c83ade9bd6cc3214ce6d449bd475d8acadaf84daf5963c79352fe68435"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.seeds.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.seeds.csv",
+      "source_sha256": "ae0b12040b1140e8f8fd0eb1de91177f06404ca7ddbd2116fff0744d11edc649",
+      "public_sha256": "ae0b12040b1140e8f8fd0eb1de91177f06404ca7ddbd2116fff0744d11edc649"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.selection.csv",
+      "source_sha256": "b94fed53b0894ced367a279c6d62f353210b144a685923949495221bb333b98b",
+      "public_sha256": "b94fed53b0894ced367a279c6d62f353210b144a685923949495221bb333b98b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.selection_summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.selection_summary.csv",
+      "source_sha256": "3e571d93d8162946629eacd37bd4458ba09c9f0d8bcd29d7c8a60b8b2452cd8c",
+      "public_sha256": "3e571d93d8162946629eacd37bd4458ba09c9f0d8bcd29d7c8a60b8b2452cd8c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.sensitivity.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.sensitivity.csv",
+      "source_sha256": "6fcc2760d6061691d5f7313b24275d989ce32786afb7c951608bd69d8cc853fe",
+      "public_sha256": "6fcc2760d6061691d5f7313b24275d989ce32786afb7c951608bd69d8cc853fe"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.sensitivity_effects.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.sensitivity_effects.csv",
+      "source_sha256": "78276747752677c1567f66fc8c2a530af96fbd4273dc92cc0e0db2df23dbe891",
+      "public_sha256": "78276747752677c1567f66fc8c2a530af96fbd4273dc92cc0e0db2df23dbe891"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.subjects.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.subjects.csv",
+      "source_sha256": "7b930585da2c73b566717a13584f1494cdb0504cec12464da7f0a40a34d87e5b",
+      "public_sha256": "7b930585da2c73b566717a13584f1494cdb0504cec12464da7f0a40a34d87e5b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.summary.csv",
+      "source_sha256": "765043d747c1b8ffa953563d76d4ef1cc5a540af9e52892fbb497cb678b8ec5c",
+      "public_sha256": "765043d747c1b8ffa953563d76d4ef1cc5a540af9e52892fbb497cb678b8ec5c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed.windows.csv",
+      "source_sha256": "ad15131269b89c14eafb5d40a233fa6c7575bec535d42cd54f7f94d70c743a5f",
+      "public_sha256": "ad15131269b89c14eafb5d40a233fa6c7575bec535d42cd54f7f94d70c743a5f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.audit.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.audit.json",
+      "source_sha256": "8cfda0bdabdd12a0608dbb90a71633144305c126577a304d26f9f31221968539",
+      "public_sha256": "8cfda0bdabdd12a0608dbb90a71633144305c126577a304d26f9f31221968539"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.comparison.csv",
+      "source_sha256": "e5db61460f538859f50ef0f15cb036ec3878a9a5e93affff291b15e06579ce4e",
+      "public_sha256": "e5db61460f538859f50ef0f15cb036ec3878a9a5e93affff291b15e06579ce4e"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.csv",
+      "source_sha256": "b66836111f11cbac69da63a3d9452f9eeaa242df3ce87d711c3d8b176388ff5a",
+      "public_sha256": "b66836111f11cbac69da63a3d9452f9eeaa242df3ce87d711c3d8b176388ff5a"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.run.json",
+      "source_sha256": "b96f497b153e25def9897b6c039abc7cca2babe59809f6302ab055e68a74f40b",
+      "public_sha256": "20008120d2dccac17350e2c54cfbfa78d5416ae267941ba02d81b9c435d39d3b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.selection.csv",
+      "source_sha256": "af488cb84dba46e58e2a6be575b4e94ac82baf4eaa6a0fa0f45800cbad3443f3",
+      "public_sha256": "af488cb84dba46e58e2a6be575b4e94ac82baf4eaa6a0fa0f45800cbad3443f3"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.summary.csv",
+      "source_sha256": "f5f1e6310f35efbd700a477fa7c288907bb03c5b619a3c9203cabc6fac813bf1",
+      "public_sha256": "f5f1e6310f35efbd700a477fa7c288907bb03c5b619a3c9203cabc6fac813bf1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.training.csv",
+      "source_sha256": "04b0375b59184845463c43bd365d990afd7a76d6284bf9db1c3c025d2a1a0675",
+      "public_sha256": "04b0375b59184845463c43bd365d990afd7a76d6284bf9db1c3c025d2a1a0675"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.validation.csv",
+      "source_sha256": "011521ce5390f89216aab1ca27cb50713a4f67714c801499dadcf5a289f58bf8",
+      "public_sha256": "011521ce5390f89216aab1ca27cb50713a4f67714c801499dadcf5a289f58bf8"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2026.windows.csv",
+      "source_sha256": "9e40ae228025111bfa0dead13d8d89cfe2875f445ce1493e912b9cd55af8a479",
+      "public_sha256": "9e40ae228025111bfa0dead13d8d89cfe2875f445ce1493e912b9cd55af8a479"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.comparison.csv",
+      "source_sha256": "8231771aa80bed368eb20381e3528027a2b61b44a7e17ac09cff4a937d640363",
+      "public_sha256": "8231771aa80bed368eb20381e3528027a2b61b44a7e17ac09cff4a937d640363"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.csv",
+      "source_sha256": "b646032be56558cac945599aa848f0cbdbf42939580c04b35cf0a6a866bae801",
+      "public_sha256": "b646032be56558cac945599aa848f0cbdbf42939580c04b35cf0a6a866bae801"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.run.json",
+      "source_sha256": "9f7480503b5a9106232a140531963ca5ebd7220e10790a7384fc3eab791271a9",
+      "public_sha256": "4c87db7647f4fcdd47995c70658d2f5f614463cbfdda76deb9b06be8ec120846"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.selection.csv",
+      "source_sha256": "49297d807c22e4f6c49860258ece6f56763c141f241df69f1ce1b5a92422f3cf",
+      "public_sha256": "49297d807c22e4f6c49860258ece6f56763c141f241df69f1ce1b5a92422f3cf"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.summary.csv",
+      "source_sha256": "3360f5204b87f633e3bb89bb5506f79e2fa56bed58b6fc9da38d325fdc7ca287",
+      "public_sha256": "3360f5204b87f633e3bb89bb5506f79e2fa56bed58b6fc9da38d325fdc7ca287"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.training.csv",
+      "source_sha256": "3d8c20f069d985cb2c7bc639aabc07774cbb46198c6fc8533a0499c0d8bda161",
+      "public_sha256": "3d8c20f069d985cb2c7bc639aabc07774cbb46198c6fc8533a0499c0d8bda161"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.validation.csv",
+      "source_sha256": "4667429970826cf6909791fff7b4eb9137894479b60b72ea7ef6c1fb7fa81dae",
+      "public_sha256": "4667429970826cf6909791fff7b4eb9137894479b60b72ea7ef6c1fb7fa81dae"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2027.windows.csv",
+      "source_sha256": "2ece6aeba9959933d2b5d2cd2e94961c8acea74be49f8d7e1da29fec14d747c6",
+      "public_sha256": "2ece6aeba9959933d2b5d2cd2e94961c8acea74be49f8d7e1da29fec14d747c6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.comparison.csv",
+      "source_sha256": "c951f85af3bf349544f7f286b631556e5bcd2123af02ebcc3d7a79df27ec713b",
+      "public_sha256": "c951f85af3bf349544f7f286b631556e5bcd2123af02ebcc3d7a79df27ec713b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.csv",
+      "source_sha256": "b1d7be9ef7a55bb8cb64d85f8eb0de366e128cb7174465b3277ebedefe43813d",
+      "public_sha256": "b1d7be9ef7a55bb8cb64d85f8eb0de366e128cb7174465b3277ebedefe43813d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.run.json",
+      "source_sha256": "8a32f6a3fee14f995dd31ad76a09dcd44f0e86e1c2f42916d01c21b5a4feb35d",
+      "public_sha256": "d538687e591e9b22b0740540a685eec3bffa66cede63abe0287e57763aec30b4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.selection.csv",
+      "source_sha256": "5ec8768c0527ef7d1fa9d7b1a0cee017839de63678989728442528003257819a",
+      "public_sha256": "5ec8768c0527ef7d1fa9d7b1a0cee017839de63678989728442528003257819a"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.summary.csv",
+      "source_sha256": "a9cd2c5a81c2fccd567ed03c2e32b561abfaa2c331a6ad773d8ed8336c33f692",
+      "public_sha256": "a9cd2c5a81c2fccd567ed03c2e32b561abfaa2c331a6ad773d8ed8336c33f692"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.training.csv",
+      "source_sha256": "d145630ef925f01e43d25a0a6ed96296fe49eacba352fee3b79f6b7a4bcc190c",
+      "public_sha256": "d145630ef925f01e43d25a0a6ed96296fe49eacba352fee3b79f6b7a4bcc190c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.validation.csv",
+      "source_sha256": "86a675b3450fe7fe1909819b995ef4f417d47c6d2f51870c453ed378f710570c",
+      "public_sha256": "86a675b3450fe7fe1909819b995ef4f417d47c6d2f51870c453ed378f710570c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2028.windows.csv",
+      "source_sha256": "8e01568737add68afa2655a284f8ba9b73b46c2333edf7c585a67b979f576a36",
+      "public_sha256": "8e01568737add68afa2655a284f8ba9b73b46c2333edf7c585a67b979f576a36"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.comparison.csv",
+      "source_sha256": "53980fc4b5e8c21c5b014c0b7634c490aeab030c6279f657cd48cac258269659",
+      "public_sha256": "53980fc4b5e8c21c5b014c0b7634c490aeab030c6279f657cd48cac258269659"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.csv",
+      "source_sha256": "3d3862fa6ff5ba5964ab64d1556f1776e3815740bae145d22b8f827550809073",
+      "public_sha256": "3d3862fa6ff5ba5964ab64d1556f1776e3815740bae145d22b8f827550809073"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.run.json",
+      "source_sha256": "a4abf0250f6558438d2edaf16deb7a2fd9631c605584d8b8359cbe67d0667fd5",
+      "public_sha256": "e316f67d0e2a5f7d0e47a0edbe507b0e35e575447c3d09a235651293bcb377a9"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.selection.csv",
+      "source_sha256": "9d7011ff57903ca1f742474279ff1567667ad07643afe97c050cebb5dd013553",
+      "public_sha256": "9d7011ff57903ca1f742474279ff1567667ad07643afe97c050cebb5dd013553"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.summary.csv",
+      "source_sha256": "4868b72bdf6f25ca98741866909b57f0eb3112418dd51d0ff737938c34749722",
+      "public_sha256": "4868b72bdf6f25ca98741866909b57f0eb3112418dd51d0ff737938c34749722"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.training.csv",
+      "source_sha256": "c312b46abc0fc7e50aa8f240d60056b8e2748c5d1c0e600ac2cab5b888789db6",
+      "public_sha256": "c312b46abc0fc7e50aa8f240d60056b8e2748c5d1c0e600ac2cab5b888789db6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.validation.csv",
+      "source_sha256": "5264443abb881c7a8a06dfd9ac87d538c25f75a0a31501d84344224ef0433204",
+      "public_sha256": "5264443abb881c7a8a06dfd9ac87d538c25f75a0a31501d84344224ef0433204"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2029.windows.csv",
+      "source_sha256": "a3bf8b20b93e646beab02f7fb3c683a33ce83a1e82b0e266899ebb46759cb164",
+      "public_sha256": "a3bf8b20b93e646beab02f7fb3c683a33ce83a1e82b0e266899ebb46759cb164"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.comparison.csv",
+      "source_sha256": "71d507e37a69cccf5036bbca9d60873d353ac7b437e116327fd9143a361937b2",
+      "public_sha256": "71d507e37a69cccf5036bbca9d60873d353ac7b437e116327fd9143a361937b2"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.csv",
+      "source_sha256": "f9b619fc4361d8a11111554b83adde75937dcf7bffdf43104e9b2918e069c7fd",
+      "public_sha256": "f9b619fc4361d8a11111554b83adde75937dcf7bffdf43104e9b2918e069c7fd"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.run.json",
+      "source_sha256": "50dcb513d7092191e58ece0a3281bdf498822b010aa35683ec198f77f211e076",
+      "public_sha256": "da7ea916a88a611178c358a706016844b801948293661d754beff241795d7cac"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.selection.csv",
+      "source_sha256": "719773a76dc93aca221780d6f8a86b863460a73268093f8fe0b37e4d3dd61571",
+      "public_sha256": "719773a76dc93aca221780d6f8a86b863460a73268093f8fe0b37e4d3dd61571"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.summary.csv",
+      "source_sha256": "7ca1a7a9ac8639115de17866a59c6302145daba2491fade8aeefaeebdb00dfeb",
+      "public_sha256": "7ca1a7a9ac8639115de17866a59c6302145daba2491fade8aeefaeebdb00dfeb"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.training.csv",
+      "source_sha256": "25972dfe2cf9a42c43fcef14e3b20690a23bd60c02d94bd648bc66430281d6b8",
+      "public_sha256": "25972dfe2cf9a42c43fcef14e3b20690a23bd60c02d94bd648bc66430281d6b8"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.validation.csv",
+      "source_sha256": "b1c8cf57cf43fbfc9e8c03e4c3e3a265104c254d6d83a36f2576cf2cff8aa92b",
+      "public_sha256": "b1c8cf57cf43fbfc9e8c03e4c3e3a265104c254d6d83a36f2576cf2cff8aa92b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject1_seed2030.windows.csv",
+      "source_sha256": "35b29f51cee61f7885cc7925fac9b12959c3bde2bdcc307873140d225c5fc100",
+      "public_sha256": "35b29f51cee61f7885cc7925fac9b12959c3bde2bdcc307873140d225c5fc100"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.comparison.csv",
+      "source_sha256": "fb09d8bd2e30e2a0931dc4111f8c5c63a24d30851087b6577ad660b2d12998ab",
+      "public_sha256": "fb09d8bd2e30e2a0931dc4111f8c5c63a24d30851087b6577ad660b2d12998ab"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.csv",
+      "source_sha256": "57104c20aa4bdcd1326ff267805f13500affc96ac7ca6953a4e735bf65652195",
+      "public_sha256": "57104c20aa4bdcd1326ff267805f13500affc96ac7ca6953a4e735bf65652195"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.run.json",
+      "source_sha256": "7c1459e3b4c0db7db5a9fb4ecc0add7830fc0edf39f2a67f10e11eb7b5984d4b",
+      "public_sha256": "754edaa9537f483df211af7c47e9d19930d21d389c8ffc951778275388253f41"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.selection.csv",
+      "source_sha256": "40d1a3eaaa9aa3950ec6cdf05b7a47bccb59ec36c7c7951c3b9b609a0b4d121c",
+      "public_sha256": "40d1a3eaaa9aa3950ec6cdf05b7a47bccb59ec36c7c7951c3b9b609a0b4d121c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.summary.csv",
+      "source_sha256": "4701c36992125038f4d20cb585936f51b25ea203f8eb57e0e05c54d1b67a4ab6",
+      "public_sha256": "4701c36992125038f4d20cb585936f51b25ea203f8eb57e0e05c54d1b67a4ab6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.training.csv",
+      "source_sha256": "2e12567d8113d8d8f129ece72dd588f7170655f6e75ded41e9629f2c2420abec",
+      "public_sha256": "2e12567d8113d8d8f129ece72dd588f7170655f6e75ded41e9629f2c2420abec"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.validation.csv",
+      "source_sha256": "98eb930dc91077cf7efae10a1b43b2c330143fbd216b146532467be75f0ca59d",
+      "public_sha256": "98eb930dc91077cf7efae10a1b43b2c330143fbd216b146532467be75f0ca59d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2026.windows.csv",
+      "source_sha256": "725f4fc9548358cd13bcb0ada378b82b31b6d83a079ba2c2df4a3fce7b5bd19f",
+      "public_sha256": "725f4fc9548358cd13bcb0ada378b82b31b6d83a079ba2c2df4a3fce7b5bd19f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.comparison.csv",
+      "source_sha256": "a942fe3f76a560fc38e4df6abedbb6fe60e6c4eb39826bcaee07f988784af962",
+      "public_sha256": "a942fe3f76a560fc38e4df6abedbb6fe60e6c4eb39826bcaee07f988784af962"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.csv",
+      "source_sha256": "9b68475af7a59aef7851122bc1c11d22b81a1056b984c6d413dd97a691c285ff",
+      "public_sha256": "9b68475af7a59aef7851122bc1c11d22b81a1056b984c6d413dd97a691c285ff"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.run.json",
+      "source_sha256": "714f682cc4c4ddfeae6225ff76d3daf6ee30c1ae724414ca8cb48a3fcc22e4c5",
+      "public_sha256": "8926e341ca616dbd6f872f6f7c24efd5914ffb5333a5a9bc18d6e08e197e9714"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.selection.csv",
+      "source_sha256": "7d4075e37f5b2a81524585de9b8e9e90dcea3859543d95320cf0ed13e8fc143e",
+      "public_sha256": "7d4075e37f5b2a81524585de9b8e9e90dcea3859543d95320cf0ed13e8fc143e"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.summary.csv",
+      "source_sha256": "3809c67db1b9a8411d7fd0228a1624c7f616994f6df4f660d209a3a306a953bd",
+      "public_sha256": "3809c67db1b9a8411d7fd0228a1624c7f616994f6df4f660d209a3a306a953bd"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.training.csv",
+      "source_sha256": "603ab77fc2c4105fe96224a438922ec75b0f5e627cc27171f69c7986639e9f6d",
+      "public_sha256": "603ab77fc2c4105fe96224a438922ec75b0f5e627cc27171f69c7986639e9f6d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.validation.csv",
+      "source_sha256": "d12ba70065081050f380f8f2947513d3f628efe2ac3d54c3d2c6e7cc5de9ca5b",
+      "public_sha256": "d12ba70065081050f380f8f2947513d3f628efe2ac3d54c3d2c6e7cc5de9ca5b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2027.windows.csv",
+      "source_sha256": "c8984ce48556c87bbe8779d9b3d24aead58d18af44f90197e08196bbe6d2ff23",
+      "public_sha256": "c8984ce48556c87bbe8779d9b3d24aead58d18af44f90197e08196bbe6d2ff23"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.comparison.csv",
+      "source_sha256": "9e07003d45fc930777ceb5dc1fb8e329dd80797f9e1eaa04cc99e8666b9e3661",
+      "public_sha256": "9e07003d45fc930777ceb5dc1fb8e329dd80797f9e1eaa04cc99e8666b9e3661"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.csv",
+      "source_sha256": "c18c6b990f168ed396bdc30e4e20ff22e3345a9585f196f50526ef964ac8805b",
+      "public_sha256": "c18c6b990f168ed396bdc30e4e20ff22e3345a9585f196f50526ef964ac8805b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.run.json",
+      "source_sha256": "afe8db3be186d2cef7f994da577ff175ec53e7039e06085bc9faa18ccbbe6a79",
+      "public_sha256": "e23e5ff436d594a4615be28b1a41f7c610fb8df34142fa53af7c0e29f6170993"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.selection.csv",
+      "source_sha256": "1d0d084b59ba63997f5d9bcb8d3c9641e219da29ff67c8e09aed777040a7bba1",
+      "public_sha256": "1d0d084b59ba63997f5d9bcb8d3c9641e219da29ff67c8e09aed777040a7bba1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.summary.csv",
+      "source_sha256": "c42ad3135170d17d90cf01c35c1ccbb55cf0c5058eddb6acf518480d42a53f40",
+      "public_sha256": "c42ad3135170d17d90cf01c35c1ccbb55cf0c5058eddb6acf518480d42a53f40"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.training.csv",
+      "source_sha256": "be7b1196839241fe8b3dd6a1bdfc171db0fd7cf997868fbc252f117c2bd730cd",
+      "public_sha256": "be7b1196839241fe8b3dd6a1bdfc171db0fd7cf997868fbc252f117c2bd730cd"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.validation.csv",
+      "source_sha256": "29db11b7ae75f2773c62223afe8fb6c65b342082d0f936c4b39301c380d4db12",
+      "public_sha256": "29db11b7ae75f2773c62223afe8fb6c65b342082d0f936c4b39301c380d4db12"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2028.windows.csv",
+      "source_sha256": "2391e1206e9f85e07320a8e559515136655107f45a644e8a1bc968460d52b308",
+      "public_sha256": "2391e1206e9f85e07320a8e559515136655107f45a644e8a1bc968460d52b308"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.comparison.csv",
+      "source_sha256": "ad982f6c354b24f5f1dde9d298a647e8b747fe0201328db213d68ac8d0034a2d",
+      "public_sha256": "ad982f6c354b24f5f1dde9d298a647e8b747fe0201328db213d68ac8d0034a2d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.csv",
+      "source_sha256": "062490a981d4da4b391a329572687cf10c5c528688ecc390fd73fce054fd1f07",
+      "public_sha256": "062490a981d4da4b391a329572687cf10c5c528688ecc390fd73fce054fd1f07"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.run.json",
+      "source_sha256": "f63b950101382e6c6698bc2c675125a6ce9823c94e00bc0ccf5d0f2c25d9354d",
+      "public_sha256": "89957c0ed59cd716da54c43ecf27521493f0c589094f78534daef5fdeed48a8c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.selection.csv",
+      "source_sha256": "8663ef18de544b40637a68cf0952e88649b7da6ede0e87f58dc1a76ffd2df6c6",
+      "public_sha256": "8663ef18de544b40637a68cf0952e88649b7da6ede0e87f58dc1a76ffd2df6c6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.summary.csv",
+      "source_sha256": "df401c4f0e17ad84d421a207406861203d1baa96e3f18a1d8770a121ad3f622f",
+      "public_sha256": "df401c4f0e17ad84d421a207406861203d1baa96e3f18a1d8770a121ad3f622f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.training.csv",
+      "source_sha256": "362d1d781c03ecebd1a3e6a832c802f78d2abdbc6b108f8dcff64595c07dd73b",
+      "public_sha256": "362d1d781c03ecebd1a3e6a832c802f78d2abdbc6b108f8dcff64595c07dd73b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.validation.csv",
+      "source_sha256": "2876b237956772566df9ff5baf509aeb2261564a6d675d1c6564f3c57112c817",
+      "public_sha256": "2876b237956772566df9ff5baf509aeb2261564a6d675d1c6564f3c57112c817"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2029.windows.csv",
+      "source_sha256": "4b5ca82c5b2deaf411dfb186fd57b76dc967e072da6a02b00800ab771bf3dbac",
+      "public_sha256": "4b5ca82c5b2deaf411dfb186fd57b76dc967e072da6a02b00800ab771bf3dbac"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.comparison.csv",
+      "source_sha256": "cb208424de6ee020fe35203c575104a10e9a26bd81020c4a19c249e3bcd0ca12",
+      "public_sha256": "cb208424de6ee020fe35203c575104a10e9a26bd81020c4a19c249e3bcd0ca12"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.csv",
+      "source_sha256": "69a8fbaa0a0fff85e16b91bd41fa7ec865488556099057c9d2a30a1ac5785c27",
+      "public_sha256": "69a8fbaa0a0fff85e16b91bd41fa7ec865488556099057c9d2a30a1ac5785c27"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.run.json",
+      "source_sha256": "0a0f607beb525903103620dda08879fa7bac3a8f44a64a81b1197ec15468bfd1",
+      "public_sha256": "94f406b84316d14a7505ebfb292252e8cafe5926cf51e7031912430c1b4b3b57"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.selection.csv",
+      "source_sha256": "83a1b59ee11c987db315f1ad181b340ebd7aadfc776faef1fa5eb0ff10e5d865",
+      "public_sha256": "83a1b59ee11c987db315f1ad181b340ebd7aadfc776faef1fa5eb0ff10e5d865"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.summary.csv",
+      "source_sha256": "c9521ea91a07468a6967bc95ec2973597440e9599e38ee7d622725ae3b2df903",
+      "public_sha256": "c9521ea91a07468a6967bc95ec2973597440e9599e38ee7d622725ae3b2df903"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.training.csv",
+      "source_sha256": "cdae5a448e7ab6e77fde79b62213cbbc8c5d640cd8c4076c193e2d22b507f0bf",
+      "public_sha256": "cdae5a448e7ab6e77fde79b62213cbbc8c5d640cd8c4076c193e2d22b507f0bf"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.validation.csv",
+      "source_sha256": "6f66b230324b6a053ab18ba3a5d8fcea6cff65c139a6a244182c2da99bc0bac0",
+      "public_sha256": "6f66b230324b6a053ab18ba3a5d8fcea6cff65c139a6a244182c2da99bc0bac0"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject2_seed2030.windows.csv",
+      "source_sha256": "5499fc8de02e78d6c2cd2c5c8a1c77bfb98d26566f1db9ebf9f6f42ff61ac62f",
+      "public_sha256": "5499fc8de02e78d6c2cd2c5c8a1c77bfb98d26566f1db9ebf9f6f42ff61ac62f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.comparison.csv",
+      "source_sha256": "7a89b57b53dd6f2166357e90efbf70d71842460498c790861cb4b57d6d3c56e2",
+      "public_sha256": "7a89b57b53dd6f2166357e90efbf70d71842460498c790861cb4b57d6d3c56e2"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.csv",
+      "source_sha256": "f1ae8c02ef7ba20b161c15fd180ac8a5041bee1085a1462f622fa2ef776e02c9",
+      "public_sha256": "f1ae8c02ef7ba20b161c15fd180ac8a5041bee1085a1462f622fa2ef776e02c9"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.run.json",
+      "source_sha256": "4044db4fbf45b7714d6eb9a74d185f8c2692ce32a731df7919f465a7431addc5",
+      "public_sha256": "78882ed0fa87629673dbb9f2f2be9bdf0d37736d4f3e90268106f7b182808a57"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.selection.csv",
+      "source_sha256": "0187f862c6f6e7719c08e6322c7b28418be69a518eb8bb63fb7ff7528ac85720",
+      "public_sha256": "0187f862c6f6e7719c08e6322c7b28418be69a518eb8bb63fb7ff7528ac85720"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.summary.csv",
+      "source_sha256": "934d5a779fdbd2c6024d51c6d410fe3b8cd68baa0d86e416ed6dcd376864027f",
+      "public_sha256": "934d5a779fdbd2c6024d51c6d410fe3b8cd68baa0d86e416ed6dcd376864027f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.training.csv",
+      "source_sha256": "9617ed30796f44a4468a90547dcef7530a628a14ff7d007c239e35f6ccc4a470",
+      "public_sha256": "9617ed30796f44a4468a90547dcef7530a628a14ff7d007c239e35f6ccc4a470"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.validation.csv",
+      "source_sha256": "68b7e73918294ef898891a86f42a7c486e9c9c49401fbb91ac98dbf80f6518b7",
+      "public_sha256": "68b7e73918294ef898891a86f42a7c486e9c9c49401fbb91ac98dbf80f6518b7"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2026.windows.csv",
+      "source_sha256": "008a6a27cb2d6f628ae70607c1d8cefb64529565a6b3a4e223e184c2cc9905de",
+      "public_sha256": "008a6a27cb2d6f628ae70607c1d8cefb64529565a6b3a4e223e184c2cc9905de"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.comparison.csv",
+      "source_sha256": "140347c99a1d090a7323cf9e314ad3044e77ef4d257366ecae74c89149fae72b",
+      "public_sha256": "140347c99a1d090a7323cf9e314ad3044e77ef4d257366ecae74c89149fae72b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.csv",
+      "source_sha256": "0d1a5bea7fdd37f1ffc1c0bd533bdb2826ffb309ba18d4612d4c133a9d75dca8",
+      "public_sha256": "0d1a5bea7fdd37f1ffc1c0bd533bdb2826ffb309ba18d4612d4c133a9d75dca8"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.run.json",
+      "source_sha256": "7b52ffb80ab14b2de932e48e7deb2457b6987a6a1b61e2ba26e4f99719e39eea",
+      "public_sha256": "4e9ab3d70bbc7caf234ee150f4d0c2060711f997574d408e8585fd3c8f43367e"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.selection.csv",
+      "source_sha256": "aecacef13faf327a2d6074ac67f676626bf1fcee8017db484a0d347fe9eea5b4",
+      "public_sha256": "aecacef13faf327a2d6074ac67f676626bf1fcee8017db484a0d347fe9eea5b4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.summary.csv",
+      "source_sha256": "ef824855379f72027e99ce0af4e978c35b548d6d796ee44f662d00ab398d4657",
+      "public_sha256": "ef824855379f72027e99ce0af4e978c35b548d6d796ee44f662d00ab398d4657"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.training.csv",
+      "source_sha256": "60c67d257b9dad4c3b733c31ccba67a4d31d54f5382c44ff147140a0dc63a302",
+      "public_sha256": "60c67d257b9dad4c3b733c31ccba67a4d31d54f5382c44ff147140a0dc63a302"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.validation.csv",
+      "source_sha256": "df0a63a1e0895777a680142e0ac91eea7e53529902a8332835e2ea32900a4c79",
+      "public_sha256": "df0a63a1e0895777a680142e0ac91eea7e53529902a8332835e2ea32900a4c79"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2027.windows.csv",
+      "source_sha256": "8fef2af4e1f538cb298e110ce66d658fd9a7b4b976cfad394202dcbe89c324f1",
+      "public_sha256": "8fef2af4e1f538cb298e110ce66d658fd9a7b4b976cfad394202dcbe89c324f1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.comparison.csv",
+      "source_sha256": "b036e051811dab27f33e3ba64b726f889bab924cec1c210e15c339e3950d63a4",
+      "public_sha256": "b036e051811dab27f33e3ba64b726f889bab924cec1c210e15c339e3950d63a4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.csv",
+      "source_sha256": "848786b7198590ef7e76e4b2c80aa37f7fe46dc602b3223a35a9e40dd089f834",
+      "public_sha256": "848786b7198590ef7e76e4b2c80aa37f7fe46dc602b3223a35a9e40dd089f834"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.run.json",
+      "source_sha256": "4ca40174f83d133d702df29faa8a293d878b1891981b291efad5a017b055fc52",
+      "public_sha256": "da372c17215f33af8932e5c7d8ed8f749246dd27b38a3cd7f0d522aa18d8d67b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.selection.csv",
+      "source_sha256": "dd3198eddbe5020af0c8c2c6a95423a2be42c13fad953236575b4613a940a7e1",
+      "public_sha256": "dd3198eddbe5020af0c8c2c6a95423a2be42c13fad953236575b4613a940a7e1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.summary.csv",
+      "source_sha256": "f0e1494cb0fa50ea2fe8461d7da2e45b837448efccd0f8ac2306a8eae694832c",
+      "public_sha256": "f0e1494cb0fa50ea2fe8461d7da2e45b837448efccd0f8ac2306a8eae694832c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.training.csv",
+      "source_sha256": "4ba501f5c547cb8446c0aceef8817019b0044e124cf21f550f32af9a8d39454c",
+      "public_sha256": "4ba501f5c547cb8446c0aceef8817019b0044e124cf21f550f32af9a8d39454c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.validation.csv",
+      "source_sha256": "60841ffbb468ca5497e15c5ab76807e0fc00446a0526624394eed61516d51112",
+      "public_sha256": "60841ffbb468ca5497e15c5ab76807e0fc00446a0526624394eed61516d51112"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2028.windows.csv",
+      "source_sha256": "e2d135a4d51dd9344ed13ed5b22439c18c637e2664f0e5efd8feddde7d77c3b2",
+      "public_sha256": "e2d135a4d51dd9344ed13ed5b22439c18c637e2664f0e5efd8feddde7d77c3b2"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.comparison.csv",
+      "source_sha256": "15930e5728a8ae6ca383cf6beffbced3aa6378412684da2fdd33faf57f8eafe4",
+      "public_sha256": "15930e5728a8ae6ca383cf6beffbced3aa6378412684da2fdd33faf57f8eafe4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.csv",
+      "source_sha256": "436c68f1f6c783ce43d410d836bd9ca922ab752a9be87d22829f2b26be04193f",
+      "public_sha256": "436c68f1f6c783ce43d410d836bd9ca922ab752a9be87d22829f2b26be04193f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.run.json",
+      "source_sha256": "23d49a81f25cb76d351e00a1619af0976a38ed956427e5986ebe709df976cdff",
+      "public_sha256": "c562937b05df957437671e30dfb043111918a43dc2846a9454a8997f468cc686"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.selection.csv",
+      "source_sha256": "80cbc48996af24d80af2543cc19fcf4a47bc313a76178d0ab96430b4696a09f5",
+      "public_sha256": "80cbc48996af24d80af2543cc19fcf4a47bc313a76178d0ab96430b4696a09f5"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.summary.csv",
+      "source_sha256": "06d036cfc8e349dd576ea81cd7f713f28c8ef398a1267170248aea3e38ae70a4",
+      "public_sha256": "06d036cfc8e349dd576ea81cd7f713f28c8ef398a1267170248aea3e38ae70a4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.training.csv",
+      "source_sha256": "8100e601c4773bb1013925e89fe2c7d1696e855705ff8ddf429f72c98e143167",
+      "public_sha256": "8100e601c4773bb1013925e89fe2c7d1696e855705ff8ddf429f72c98e143167"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.validation.csv",
+      "source_sha256": "d9f2317cb3c38b60f8165a88d6faeb662afa180ab13803de7f81d93feef5a4b4",
+      "public_sha256": "d9f2317cb3c38b60f8165a88d6faeb662afa180ab13803de7f81d93feef5a4b4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2029.windows.csv",
+      "source_sha256": "4687a9d2f2619de6eb674bcb95673c1d90ae9bc5a608040efd678c157c5e5a38",
+      "public_sha256": "4687a9d2f2619de6eb674bcb95673c1d90ae9bc5a608040efd678c157c5e5a38"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.comparison.csv",
+      "source_sha256": "fac198ebe9a33e5e281738963389158ac12b268e87d567b074608ac625eadb98",
+      "public_sha256": "fac198ebe9a33e5e281738963389158ac12b268e87d567b074608ac625eadb98"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.csv",
+      "source_sha256": "5271aa6d08f2ceda4d0bce882c5b90433258185bb93cd4eff7fc1d7ea706f4be",
+      "public_sha256": "5271aa6d08f2ceda4d0bce882c5b90433258185bb93cd4eff7fc1d7ea706f4be"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.run.json",
+      "source_sha256": "0d8db458bd1e5d8ee5634f802acc0081040c4fbc67ce5473b23fdd706fbd09ea",
+      "public_sha256": "7cbfdf1d864d1ba980010eea528368b47abce116d46213b58f3467a7b7b85bb0"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.selection.csv",
+      "source_sha256": "0db0f796ad96309765a650a048150729f57898d4743034ab7624fff32ea4aec6",
+      "public_sha256": "0db0f796ad96309765a650a048150729f57898d4743034ab7624fff32ea4aec6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.summary.csv",
+      "source_sha256": "a9fdade552d9b451b750e4f121edf6e9c8c9209548250bee7decc8f529c1f187",
+      "public_sha256": "a9fdade552d9b451b750e4f121edf6e9c8c9209548250bee7decc8f529c1f187"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.training.csv",
+      "source_sha256": "2c379f2a0f8c05dca84d76d41395aeb29f2e576629e23a5d8611ebf2e15654ce",
+      "public_sha256": "2c379f2a0f8c05dca84d76d41395aeb29f2e576629e23a5d8611ebf2e15654ce"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.validation.csv",
+      "source_sha256": "58b3503d0b2ff64f086bb2e2dd35c53e8a791560c713ea7c0d77bf8a0a0aaa95",
+      "public_sha256": "58b3503d0b2ff64f086bb2e2dd35c53e8a791560c713ea7c0d77bf8a0a0aaa95"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject3_seed2030.windows.csv",
+      "source_sha256": "faa9da4baa83c55d58209d4b5ce0aa656bda877c68488058cac51b6398f44b80",
+      "public_sha256": "faa9da4baa83c55d58209d4b5ce0aa656bda877c68488058cac51b6398f44b80"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.comparison.csv",
+      "source_sha256": "fe0f1cbdb4a8f3a2e7993205186138d4d01c5fc482003e7b1f35abad7a6d2eee",
+      "public_sha256": "fe0f1cbdb4a8f3a2e7993205186138d4d01c5fc482003e7b1f35abad7a6d2eee"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.csv",
+      "source_sha256": "0ed60cfffbf9f4edf9fb725e3f8d6f959073dafb35affcc1de6be69fd33d3675",
+      "public_sha256": "0ed60cfffbf9f4edf9fb725e3f8d6f959073dafb35affcc1de6be69fd33d3675"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.run.json",
+      "source_sha256": "fe27c947ecbc353339cea436199baf3dfa107deec7d946eec1543cc58c9639ff",
+      "public_sha256": "453cfe17c86bd5113ec846968bfc675de9d4babf6a86d18a81415d007a70e5c9"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.selection.csv",
+      "source_sha256": "005fd8bbe973ba4cc527ed9613eb7727cd0b73221513f24378833144204cdb1b",
+      "public_sha256": "005fd8bbe973ba4cc527ed9613eb7727cd0b73221513f24378833144204cdb1b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.summary.csv",
+      "source_sha256": "4f4ecdf45368f2eea05260ded2bab55956fbf9238a423636436eb9a722737643",
+      "public_sha256": "4f4ecdf45368f2eea05260ded2bab55956fbf9238a423636436eb9a722737643"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.training.csv",
+      "source_sha256": "cc605d9caa0e205e298e860729ea2ac349e80f300b31011c5d284d234fc099a3",
+      "public_sha256": "cc605d9caa0e205e298e860729ea2ac349e80f300b31011c5d284d234fc099a3"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.validation.csv",
+      "source_sha256": "d588a3e9ef1bf5dc572d07bacc9e143823adcfb1d1ef32fff5eb16c278d0ecb1",
+      "public_sha256": "d588a3e9ef1bf5dc572d07bacc9e143823adcfb1d1ef32fff5eb16c278d0ecb1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2026.windows.csv",
+      "source_sha256": "f75647f840dd0149b541440bcf01d34279af3ee5239d1a5c9b39ef234098252b",
+      "public_sha256": "f75647f840dd0149b541440bcf01d34279af3ee5239d1a5c9b39ef234098252b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.comparison.csv",
+      "source_sha256": "13b8cf6a45ff21ed67d7fa3086ee4640e10b15b9bc9cca808da7db7ee4c14423",
+      "public_sha256": "13b8cf6a45ff21ed67d7fa3086ee4640e10b15b9bc9cca808da7db7ee4c14423"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.csv",
+      "source_sha256": "c128e360e3a0ca79c0298989c22bf69a6b2128e87a938d656265fdd4bf7333b0",
+      "public_sha256": "c128e360e3a0ca79c0298989c22bf69a6b2128e87a938d656265fdd4bf7333b0"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.run.json",
+      "source_sha256": "17eb303b005be51b4ecc03eff5537742f37fc8483646948bbe1f8b7f70d074f1",
+      "public_sha256": "8d1318eefa26cb2373be71d2c8da4e8e43d0e37b5709315b542eab718c24adb5"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.selection.csv",
+      "source_sha256": "bee1352edf4fb2139799a6a54bea90a620c26f5ffda3ab84ba278e95f0f10230",
+      "public_sha256": "bee1352edf4fb2139799a6a54bea90a620c26f5ffda3ab84ba278e95f0f10230"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.summary.csv",
+      "source_sha256": "1db43a34c54ebffb59f5773f1d787d07920cdeecc297e2a1d8e3e444f669e7da",
+      "public_sha256": "1db43a34c54ebffb59f5773f1d787d07920cdeecc297e2a1d8e3e444f669e7da"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.training.csv",
+      "source_sha256": "a365673aedb4fef5e63b3904576053f24bbe1115b08ca3bcf282552a5b4f65cb",
+      "public_sha256": "a365673aedb4fef5e63b3904576053f24bbe1115b08ca3bcf282552a5b4f65cb"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.validation.csv",
+      "source_sha256": "03e90f18d6426dfe0a48c0b622064fd9472951e1da12bbdfcbca9d7a2c8c23d6",
+      "public_sha256": "03e90f18d6426dfe0a48c0b622064fd9472951e1da12bbdfcbca9d7a2c8c23d6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2027.windows.csv",
+      "source_sha256": "4aa2a73eafe243ab3d53727cf28fc4122d18060b4d71c739d2f20a34a206f679",
+      "public_sha256": "4aa2a73eafe243ab3d53727cf28fc4122d18060b4d71c739d2f20a34a206f679"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.comparison.csv",
+      "source_sha256": "076fc400cb48b916cab624dafd3dd213e8fea018d07074f17869b4236d9251be",
+      "public_sha256": "076fc400cb48b916cab624dafd3dd213e8fea018d07074f17869b4236d9251be"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.csv",
+      "source_sha256": "7f3ab75520791f5ea060a03a2e3b4c116c7b998aca3e2b8dce663b897cd01e50",
+      "public_sha256": "7f3ab75520791f5ea060a03a2e3b4c116c7b998aca3e2b8dce663b897cd01e50"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.run.json",
+      "source_sha256": "ed8e64ac38c525445242777f73ceb0ff1ac598a5823197019798746ce54251e2",
+      "public_sha256": "73fc2e3c487772c4f3138cfd9d397d25f9e12b61af35237c3d1d76d56b11b459"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.selection.csv",
+      "source_sha256": "1946c310cef26abff5795744b2303775747b39898be2b07a533d6a3a00ba8f8d",
+      "public_sha256": "1946c310cef26abff5795744b2303775747b39898be2b07a533d6a3a00ba8f8d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.summary.csv",
+      "source_sha256": "4073ec424e0f3893f98a2a4d49ffa687c7f10e3717f24f82defc201f02697ab5",
+      "public_sha256": "4073ec424e0f3893f98a2a4d49ffa687c7f10e3717f24f82defc201f02697ab5"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.training.csv",
+      "source_sha256": "f8121d994f741336f64c45bbcc6458a44b2e99c8759c155a3a12612bca03c27b",
+      "public_sha256": "f8121d994f741336f64c45bbcc6458a44b2e99c8759c155a3a12612bca03c27b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.validation.csv",
+      "source_sha256": "50350c4760abcd75041f99ca15fcacc356edad85df061b5e8668c2e625fc7afa",
+      "public_sha256": "50350c4760abcd75041f99ca15fcacc356edad85df061b5e8668c2e625fc7afa"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2028.windows.csv",
+      "source_sha256": "063ed29c4b2d3ab217b69169f466becddebb417304cd161432e4ef1823a652bc",
+      "public_sha256": "063ed29c4b2d3ab217b69169f466becddebb417304cd161432e4ef1823a652bc"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.comparison.csv",
+      "source_sha256": "39a7c00efa63e2c31ef448d0d17b61c7c868af97f212e876c608531b245e05d4",
+      "public_sha256": "39a7c00efa63e2c31ef448d0d17b61c7c868af97f212e876c608531b245e05d4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.csv",
+      "source_sha256": "04931c68c3a1060fb3e198b75b4a89fcda4879b0cbf3ab51075e562923157b89",
+      "public_sha256": "04931c68c3a1060fb3e198b75b4a89fcda4879b0cbf3ab51075e562923157b89"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.run.json",
+      "source_sha256": "5730d1ebc20bb4afafd921805f92837c4f8e5dc333ad5313256269e57baf109d",
+      "public_sha256": "60b8c4a7cd3c554de98e89d0368b9183c71f81def9c718dc3d1a3bfd1bbce90c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.selection.csv",
+      "source_sha256": "0f6515cf6cb9802558a1b8ed6a7c9f927166b15cc9fd476d0a2d58989f5aaf14",
+      "public_sha256": "0f6515cf6cb9802558a1b8ed6a7c9f927166b15cc9fd476d0a2d58989f5aaf14"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.summary.csv",
+      "source_sha256": "d67104c9479cc89fad52bb849b6e109129bc3bdd97eed7bf175264804d1e6986",
+      "public_sha256": "d67104c9479cc89fad52bb849b6e109129bc3bdd97eed7bf175264804d1e6986"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.training.csv",
+      "source_sha256": "90b3c1a205bbf4dcb900e5c1d79a566c7c02b73bbe517aca9a3acba3de2138b9",
+      "public_sha256": "90b3c1a205bbf4dcb900e5c1d79a566c7c02b73bbe517aca9a3acba3de2138b9"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.validation.csv",
+      "source_sha256": "615790fa0c0e9ca562f8a9a665e5621c6bafb107d4a05ae7916ee43cdf510adc",
+      "public_sha256": "615790fa0c0e9ca562f8a9a665e5621c6bafb107d4a05ae7916ee43cdf510adc"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2029.windows.csv",
+      "source_sha256": "7f5589ebd5656c03ee51efd1694ac893251a5ae601d32c19ca25f026eb538016",
+      "public_sha256": "7f5589ebd5656c03ee51efd1694ac893251a5ae601d32c19ca25f026eb538016"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.comparison.csv",
+      "source_sha256": "5d3608d626f6d9831108b1f4a47e8928c3a928968dd488b4dfcea3e7526682f7",
+      "public_sha256": "5d3608d626f6d9831108b1f4a47e8928c3a928968dd488b4dfcea3e7526682f7"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.csv",
+      "source_sha256": "e18f0cbf66cc3b687b067613dda86c59c76213b07629b0f1ec75d96d53bcc066",
+      "public_sha256": "e18f0cbf66cc3b687b067613dda86c59c76213b07629b0f1ec75d96d53bcc066"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.run.json",
+      "source_sha256": "d1589877bf617fa3e01c6376b32914e47681f61a4212b1daf0c108c507a68462",
+      "public_sha256": "d6947b4b0371ce55c0ce2eda5eea5ce783a5c82138c4341aa26938ccff04f32e"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.selection.csv",
+      "source_sha256": "03aa0e7885e52c382ca0066ac390cd8bf8f3b437e4112e5a057f3793d98fc6f6",
+      "public_sha256": "03aa0e7885e52c382ca0066ac390cd8bf8f3b437e4112e5a057f3793d98fc6f6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.summary.csv",
+      "source_sha256": "2d7fa3d0fd8d20dd3bbfe51011a693d4315ec25c249114d9c51184dad21a2edc",
+      "public_sha256": "2d7fa3d0fd8d20dd3bbfe51011a693d4315ec25c249114d9c51184dad21a2edc"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.training.csv",
+      "source_sha256": "2397e3b9561251fb046d311884337d56b06b5dd1234428d94540f22e06ecefe0",
+      "public_sha256": "2397e3b9561251fb046d311884337d56b06b5dd1234428d94540f22e06ecefe0"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.validation.csv",
+      "source_sha256": "6bb5e237881f013ed10cfb52e4fa3e07e0d23e61f2da2e4091c3a3264584d04a",
+      "public_sha256": "6bb5e237881f013ed10cfb52e4fa3e07e0d23e61f2da2e4091c3a3264584d04a"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject4_seed2030.windows.csv",
+      "source_sha256": "a4bef527cf569f6d75f40afff38b90190718c0a9f3861484d3da166a5eeecfb1",
+      "public_sha256": "a4bef527cf569f6d75f40afff38b90190718c0a9f3861484d3da166a5eeecfb1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.comparison.csv",
+      "source_sha256": "6c992b033aa6e88428868e4dec7c8cc15c1f38dc68cd1dedd6d8ff9dbd8c9ccc",
+      "public_sha256": "6c992b033aa6e88428868e4dec7c8cc15c1f38dc68cd1dedd6d8ff9dbd8c9ccc"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.csv",
+      "source_sha256": "5f97802eb893f10f7b3e3f64d834be5d773511d56e6602aff7bc59a00c5202d6",
+      "public_sha256": "5f97802eb893f10f7b3e3f64d834be5d773511d56e6602aff7bc59a00c5202d6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.run.json",
+      "source_sha256": "4e5993621cc9a512e7424875ac33fbd747c6dad79deaa84699d5d39a1a637af1",
+      "public_sha256": "7a0aae5cd165352a645cf3d29aacfd62e64172d315eee4798c1b1f182e9e75fd"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.selection.csv",
+      "source_sha256": "4ad08ee30586545572603c8c47b535a675ebfb9ad801d3ef329c96b05186c594",
+      "public_sha256": "4ad08ee30586545572603c8c47b535a675ebfb9ad801d3ef329c96b05186c594"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.summary.csv",
+      "source_sha256": "d3df481cd8e841d4f4c4d0a4df14a1080b972497fef02cd7f667d277fab48e4c",
+      "public_sha256": "d3df481cd8e841d4f4c4d0a4df14a1080b972497fef02cd7f667d277fab48e4c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.training.csv",
+      "source_sha256": "b4664760ba966de505dfd67d7360201ea5b78156f241267f36d78ee17fa83b94",
+      "public_sha256": "b4664760ba966de505dfd67d7360201ea5b78156f241267f36d78ee17fa83b94"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.validation.csv",
+      "source_sha256": "05c6669d01d110d1421df5de6abec0a1b3459f241da11029c4b62e589df3c710",
+      "public_sha256": "05c6669d01d110d1421df5de6abec0a1b3459f241da11029c4b62e589df3c710"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2026.windows.csv",
+      "source_sha256": "cef8bb9115c34423f29aae416293d9a032178ea055c06ab21fdbc300cd5f07ed",
+      "public_sha256": "cef8bb9115c34423f29aae416293d9a032178ea055c06ab21fdbc300cd5f07ed"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.comparison.csv",
+      "source_sha256": "f5b3d091002be0b167306f9895930660c97710edc6d4cb0ca6b3f643b3e87b8c",
+      "public_sha256": "f5b3d091002be0b167306f9895930660c97710edc6d4cb0ca6b3f643b3e87b8c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.csv",
+      "source_sha256": "c4663e0f81c98251296e73cb8008bce99f191df6c3a53c49999af573464a33ee",
+      "public_sha256": "c4663e0f81c98251296e73cb8008bce99f191df6c3a53c49999af573464a33ee"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.run.json",
+      "source_sha256": "72c7a4343060b31556656baa672ab3105d9518e7dca4b1a4eabccf4b22b447ae",
+      "public_sha256": "57a400373945da8a771e34db3bdb9209f4f8857b8b4ecb5d244d065d79d52062"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.selection.csv",
+      "source_sha256": "4f8d8319c47dfdf2bbc1133a1e515519237588f3634db9849b8ad365fb73e963",
+      "public_sha256": "4f8d8319c47dfdf2bbc1133a1e515519237588f3634db9849b8ad365fb73e963"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.summary.csv",
+      "source_sha256": "891db9531e71ff2255056171f9a8f31481717dc0f3b824852977a7f67c002a5a",
+      "public_sha256": "891db9531e71ff2255056171f9a8f31481717dc0f3b824852977a7f67c002a5a"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.training.csv",
+      "source_sha256": "b27e8f408257f82140814ea565a7e0f5582e6839212a6f0d3025a6f81c0f7b9e",
+      "public_sha256": "b27e8f408257f82140814ea565a7e0f5582e6839212a6f0d3025a6f81c0f7b9e"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.validation.csv",
+      "source_sha256": "41ccd853a04774a1506803d325c4d49fdf686cc442363ad0e69dba0c05399094",
+      "public_sha256": "41ccd853a04774a1506803d325c4d49fdf686cc442363ad0e69dba0c05399094"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2027.windows.csv",
+      "source_sha256": "3daeac93feaf47eba1d3ad6f66d08e6be0f786c5722f374e0736006f3c6219f1",
+      "public_sha256": "3daeac93feaf47eba1d3ad6f66d08e6be0f786c5722f374e0736006f3c6219f1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.comparison.csv",
+      "source_sha256": "02a41f312b94e42521bb66f563e380237843c3064869849256281223d443a06c",
+      "public_sha256": "02a41f312b94e42521bb66f563e380237843c3064869849256281223d443a06c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.csv",
+      "source_sha256": "a5efad4323fd8705534dfead5d3b8fd9d95e9469d56c1313308d111ca1c4fe31",
+      "public_sha256": "a5efad4323fd8705534dfead5d3b8fd9d95e9469d56c1313308d111ca1c4fe31"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.run.json",
+      "source_sha256": "ee8e96f386120ffebd6bcc5ee218758b9bb6bc76571fce6dddacc7ac2c4d0f1a",
+      "public_sha256": "ca86d58813ed6e2e4c2b40d092b7910c4fa4301b76f51aeb3c9e1ce79ccd9389"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.selection.csv",
+      "source_sha256": "aa2b11ce944d9063c9a362e2db45b106e70be4d55d56f9736a609016200298f3",
+      "public_sha256": "aa2b11ce944d9063c9a362e2db45b106e70be4d55d56f9736a609016200298f3"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.summary.csv",
+      "source_sha256": "67578294d35509d3a69340313e4cd4b1a87d46c8a5a762a1eeeb873039000f9d",
+      "public_sha256": "67578294d35509d3a69340313e4cd4b1a87d46c8a5a762a1eeeb873039000f9d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.training.csv",
+      "source_sha256": "2e1aabd5229c2e4880231f8dd94d989b381d9e3e8b33027d432c5a955fb01f1f",
+      "public_sha256": "2e1aabd5229c2e4880231f8dd94d989b381d9e3e8b33027d432c5a955fb01f1f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.validation.csv",
+      "source_sha256": "1cc4106f2c34dd120889017483b0e20d6ab102342d032e38482f7dfadff3837f",
+      "public_sha256": "1cc4106f2c34dd120889017483b0e20d6ab102342d032e38482f7dfadff3837f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2028.windows.csv",
+      "source_sha256": "7bbc7337a427dc08ba909ef4136274e6e3987f3e77d4a3b5b109155c966789cb",
+      "public_sha256": "7bbc7337a427dc08ba909ef4136274e6e3987f3e77d4a3b5b109155c966789cb"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.comparison.csv",
+      "source_sha256": "792bc4c0e5d69b3c4b6ee30cc9b0f51f6249f0028bfaa0c44b4471a129a0faa7",
+      "public_sha256": "792bc4c0e5d69b3c4b6ee30cc9b0f51f6249f0028bfaa0c44b4471a129a0faa7"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.csv",
+      "source_sha256": "752640fcb407cfe6cf12bba9cb6e3b338b5586b24ec751d4c127abaac9094500",
+      "public_sha256": "752640fcb407cfe6cf12bba9cb6e3b338b5586b24ec751d4c127abaac9094500"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.run.json",
+      "source_sha256": "aa4152add9f1737b30e1284fd13e2e80c660f47b43badb987f369503596518cd",
+      "public_sha256": "e08a2b871530e895da94947429beffa47e2263c6da2f1f6d8a8c4d41858eeb95"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.selection.csv",
+      "source_sha256": "261027480bbd6d44bf2234315130236cbee808e5473190e960142fbb68b10f2b",
+      "public_sha256": "261027480bbd6d44bf2234315130236cbee808e5473190e960142fbb68b10f2b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.summary.csv",
+      "source_sha256": "6b2eec313c3d5d44d4ba0305f75e3f990eae272fcfa8340bdd1e3d2ac11eadac",
+      "public_sha256": "6b2eec313c3d5d44d4ba0305f75e3f990eae272fcfa8340bdd1e3d2ac11eadac"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.training.csv",
+      "source_sha256": "02612a4b684226b13c2dd01c743326a9391f520a63cb11df6f4e6c540078390c",
+      "public_sha256": "02612a4b684226b13c2dd01c743326a9391f520a63cb11df6f4e6c540078390c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.validation.csv",
+      "source_sha256": "1e271a29fff47666c0f911e38a0f4e4990413fe029bbdd2d50c881844d29fa0e",
+      "public_sha256": "1e271a29fff47666c0f911e38a0f4e4990413fe029bbdd2d50c881844d29fa0e"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2029.windows.csv",
+      "source_sha256": "70a48dd3684ec3798ffb5f6ab3a55ca4b50595ebb7882b85cca708667bf9969c",
+      "public_sha256": "70a48dd3684ec3798ffb5f6ab3a55ca4b50595ebb7882b85cca708667bf9969c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.comparison.csv",
+      "source_sha256": "192868e0cdac012a710dab42932b57b914efe6d66d5cf4f5dfd49dfb69cf39a7",
+      "public_sha256": "192868e0cdac012a710dab42932b57b914efe6d66d5cf4f5dfd49dfb69cf39a7"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.csv",
+      "source_sha256": "0101f576a7662e6a1964803fc0a154de3ce3e7ed1ca3015b530dc836c3c3b6f7",
+      "public_sha256": "0101f576a7662e6a1964803fc0a154de3ce3e7ed1ca3015b530dc836c3c3b6f7"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.run.json",
+      "source_sha256": "67402f3b750398323f066ba7b5743e9da6d79d431496cb925aeb4d5f0c698ec9",
+      "public_sha256": "752aa4405356d83cdba155c48c904a2a36fe38c2d4a41998d719bfcb8d725037"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.selection.csv",
+      "source_sha256": "dfb18ed16cf4c58842a760a34fdbc770ac76630d43b0ae098229d2a3b417b5a7",
+      "public_sha256": "dfb18ed16cf4c58842a760a34fdbc770ac76630d43b0ae098229d2a3b417b5a7"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.summary.csv",
+      "source_sha256": "cf0ac36283d92f763756f4adb40ab38cfd01e355b6e27238206e348c8d2ae1a6",
+      "public_sha256": "cf0ac36283d92f763756f4adb40ab38cfd01e355b6e27238206e348c8d2ae1a6"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.training.csv",
+      "source_sha256": "6daa8ecd7634eec2309411891f0cb7e96ed4a1fd32afdfd90b191f297a946eb3",
+      "public_sha256": "6daa8ecd7634eec2309411891f0cb7e96ed4a1fd32afdfd90b191f297a946eb3"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.validation.csv",
+      "source_sha256": "465f292c3c62c7ae7fc8161d0f5de80c01ac6935cdd811a7f4d2d892045db80b",
+      "public_sha256": "465f292c3c62c7ae7fc8161d0f5de80c01ac6935cdd811a7f4d2d892045db80b"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject5_seed2030.windows.csv",
+      "source_sha256": "d08b116b74555125e6f2ef4e2bf4b4b0f88e3d34b3c23ad87b7b1ebfa10110a0",
+      "public_sha256": "d08b116b74555125e6f2ef4e2bf4b4b0f88e3d34b3c23ad87b7b1ebfa10110a0"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.comparison.csv",
+      "source_sha256": "8bb2e93037f02a72547e3b8f9065afe74218a0a6b583fe2f54624e83e5cf9b3d",
+      "public_sha256": "8bb2e93037f02a72547e3b8f9065afe74218a0a6b583fe2f54624e83e5cf9b3d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.csv",
+      "source_sha256": "b3b18fcf41c728f8b4105a2d2fa861fa5a3377d8b580bf6b1795c2f6a00dcf6c",
+      "public_sha256": "b3b18fcf41c728f8b4105a2d2fa861fa5a3377d8b580bf6b1795c2f6a00dcf6c"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.run.json",
+      "source_sha256": "41bd8670085c6d338f4679f6d2bf0caf3815918683efbadafcd747a14993693d",
+      "public_sha256": "a87b563accdcb50e61069010a8858e74073ced758b3dca95a018009479510088"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.selection.csv",
+      "source_sha256": "4ec12260596f0c078aa41a692956bfdab6d3fb155dd830b7553b950066c771d9",
+      "public_sha256": "4ec12260596f0c078aa41a692956bfdab6d3fb155dd830b7553b950066c771d9"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.summary.csv",
+      "source_sha256": "79d9f4883e32b69cd839c599d86503e97d397635a2014ff7c4ddce15dcd3d43d",
+      "public_sha256": "79d9f4883e32b69cd839c599d86503e97d397635a2014ff7c4ddce15dcd3d43d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.training.csv",
+      "source_sha256": "d8ead03385e5a0aefd53257e7ce5db5794db231adf076ae4616674ec503209bc",
+      "public_sha256": "d8ead03385e5a0aefd53257e7ce5db5794db231adf076ae4616674ec503209bc"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.validation.csv",
+      "source_sha256": "1efe7b049ec0282a98cc92529a37e4fde00b575d69a8628e29aad57eb597205f",
+      "public_sha256": "1efe7b049ec0282a98cc92529a37e4fde00b575d69a8628e29aad57eb597205f"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2026.windows.csv",
+      "source_sha256": "fb6679ac710cc62091e74a536a5226d4fb70ac3b9cddc6e3fde803a874220d85",
+      "public_sha256": "fb6679ac710cc62091e74a536a5226d4fb70ac3b9cddc6e3fde803a874220d85"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.comparison.csv",
+      "source_sha256": "ff3ae4a49d28626b98ce89a81b9a0e595a8e6a9332a0874af0917f25dcdf2083",
+      "public_sha256": "ff3ae4a49d28626b98ce89a81b9a0e595a8e6a9332a0874af0917f25dcdf2083"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.csv",
+      "source_sha256": "cf83e4cf3438257af8547f2df308882896530def6649a96d1fcf8d249fc26fc5",
+      "public_sha256": "cf83e4cf3438257af8547f2df308882896530def6649a96d1fcf8d249fc26fc5"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.run.json",
+      "source_sha256": "caf8ac2986dd3cdd7318302bcbff1b9e68d99810ae4958b4b6a5ce9dd726ca04",
+      "public_sha256": "98e0c4818bc891caad5f6a7288732c4fcdcd140eeddd090a6f2bd2bdae988f50"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.selection.csv",
+      "source_sha256": "8c849a7a59006d63e157725faae32952267f3886ac7edac711854efce38f4d1d",
+      "public_sha256": "8c849a7a59006d63e157725faae32952267f3886ac7edac711854efce38f4d1d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.summary.csv",
+      "source_sha256": "8e6c2d55586f3900f644e60dd39914627b3d3c020d9a8a4317becf0a3f4ecd49",
+      "public_sha256": "8e6c2d55586f3900f644e60dd39914627b3d3c020d9a8a4317becf0a3f4ecd49"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.training.csv",
+      "source_sha256": "bd3f4c48dccaf6096ae906114d7fc45352af0fc477b0a8931340c5efd9fdc173",
+      "public_sha256": "bd3f4c48dccaf6096ae906114d7fc45352af0fc477b0a8931340c5efd9fdc173"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.validation.csv",
+      "source_sha256": "1303aa660353a662f7e8fbcb84fa7c8ef0b712ab6919bed1f3d1336a5d76ff8d",
+      "public_sha256": "1303aa660353a662f7e8fbcb84fa7c8ef0b712ab6919bed1f3d1336a5d76ff8d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2027.windows.csv",
+      "source_sha256": "69ccb461b7431099c282896dbc9bbdd00dc38ce88659b2e05d614d94148eda1a",
+      "public_sha256": "69ccb461b7431099c282896dbc9bbdd00dc38ce88659b2e05d614d94148eda1a"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.comparison.csv",
+      "source_sha256": "fb98d417f773d76dbc31cc6e2f6d319abcdfcb574d288c3de097dcab3b1f47f9",
+      "public_sha256": "fb98d417f773d76dbc31cc6e2f6d319abcdfcb574d288c3de097dcab3b1f47f9"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.csv",
+      "source_sha256": "b74f570edce20dfef045e33ae45cc661beae151d8e83f785533c2be159de94e4",
+      "public_sha256": "b74f570edce20dfef045e33ae45cc661beae151d8e83f785533c2be159de94e4"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.run.json",
+      "source_sha256": "df392b1740f86a6835e583da7c779f8028314a134483839b8046744566d9695d",
+      "public_sha256": "d2a6f71cf7a7bc7defe3877f18a59be41f9404bab46d6990cf55c6d064e48b99"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.selection.csv",
+      "source_sha256": "532e200d6b952ae696c8f060f3890e5693edef23866d03c4a5d20b922ca06ef8",
+      "public_sha256": "532e200d6b952ae696c8f060f3890e5693edef23866d03c4a5d20b922ca06ef8"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.summary.csv",
+      "source_sha256": "4b1b29613b29af892ff23eff81962cf6d38a5487b9de83273ffcac096e7d0607",
+      "public_sha256": "4b1b29613b29af892ff23eff81962cf6d38a5487b9de83273ffcac096e7d0607"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.training.csv",
+      "source_sha256": "b6247e0272178273f309b3bd9b7792c40280471aca21daaf164afd5efeaea254",
+      "public_sha256": "b6247e0272178273f309b3bd9b7792c40280471aca21daaf164afd5efeaea254"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.validation.csv",
+      "source_sha256": "7f5df1a75fc1b9fe571caab7bfd6f3a8c29d0c69b983253723366b959dba09e1",
+      "public_sha256": "7f5df1a75fc1b9fe571caab7bfd6f3a8c29d0c69b983253723366b959dba09e1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2028.windows.csv",
+      "source_sha256": "5cd8a3c0d55c9e0cb568687794d15f0801ee363248d68117c696dd107eef3a08",
+      "public_sha256": "5cd8a3c0d55c9e0cb568687794d15f0801ee363248d68117c696dd107eef3a08"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.comparison.csv",
+      "source_sha256": "0513e520592bf75ef03ee411b44e469d21b5c09dbf46804ee64e672c7d345d69",
+      "public_sha256": "0513e520592bf75ef03ee411b44e469d21b5c09dbf46804ee64e672c7d345d69"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.csv",
+      "source_sha256": "d2249a551f0eecbd0e0df1edfe76175532e1f477f21f5aa8c0b0e7bb45447c3d",
+      "public_sha256": "d2249a551f0eecbd0e0df1edfe76175532e1f477f21f5aa8c0b0e7bb45447c3d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.run.json",
+      "source_sha256": "00e358a7253bea5500b1de5e6a6b6359986b2097f040c78b822f30a0a0f0d3b7",
+      "public_sha256": "632eca2906ea4f5d55ae5a9e6108bb62e3238a02adb862adecdea0338abd8295"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.selection.csv",
+      "source_sha256": "60e4bfa62faba7115fb36f22f2d0670e0bec95a53be1ca047eef72da8aaa1232",
+      "public_sha256": "60e4bfa62faba7115fb36f22f2d0670e0bec95a53be1ca047eef72da8aaa1232"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.summary.csv",
+      "source_sha256": "c1f163e1a816749e3085a0a2a9d4a3d7b9e783f9d86fe8a34774e726c6a34bd1",
+      "public_sha256": "c1f163e1a816749e3085a0a2a9d4a3d7b9e783f9d86fe8a34774e726c6a34bd1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.training.csv",
+      "source_sha256": "a2bf58508dd2538b6457d9f79a912c3262ce6b9302564647122110489d0d1df8",
+      "public_sha256": "a2bf58508dd2538b6457d9f79a912c3262ce6b9302564647122110489d0d1df8"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.validation.csv",
+      "source_sha256": "d2a1669f8f958f2d9db0c6f64eb769828fd605d4c5d04b8413be076e199bf761",
+      "public_sha256": "d2a1669f8f958f2d9db0c6f64eb769828fd605d4c5d04b8413be076e199bf761"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2029.windows.csv",
+      "source_sha256": "60caff1c366cbea7def85bb19a0cd5f847b79a40ea2185665572adc44d3f88e1",
+      "public_sha256": "60caff1c366cbea7def85bb19a0cd5f847b79a40ea2185665572adc44d3f88e1"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.comparison.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.comparison.csv",
+      "source_sha256": "4832ba5d5d15759a829856cc0680f02144f9b2315e4ef1b722b9529bdef74349",
+      "public_sha256": "4832ba5d5d15759a829856cc0680f02144f9b2315e4ef1b722b9529bdef74349"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.csv",
+      "source_sha256": "877dd2a04f23c6451fa202046f14d2fcb84cd8e905136c7d57cf1cf76850f731",
+      "public_sha256": "877dd2a04f23c6451fa202046f14d2fcb84cd8e905136c7d57cf1cf76850f731"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.run.json",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.run.json",
+      "source_sha256": "46c4bbde17c9a4cdf1f7115ce1549352b9063d4588eaa31ea124aa923f9e4075",
+      "public_sha256": "50f3eb2abe1cf8f0754a82047571b14c1daeecf8c4c4d06a5855cfe51fa4e85d"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.selection.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.selection.csv",
+      "source_sha256": "62d17f6db755e1cb45548fbadb281204280333dde122568e64fa86206ba64ba8",
+      "public_sha256": "62d17f6db755e1cb45548fbadb281204280333dde122568e64fa86206ba64ba8"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.summary.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.summary.csv",
+      "source_sha256": "6bef268de2ec7e54c7c19872206140752a8e1773c278905d557405b6c4aca553",
+      "public_sha256": "6bef268de2ec7e54c7c19872206140752a8e1773c278905d557405b6c4aca553"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.training.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.training.csv",
+      "source_sha256": "d3cb24b0a88576f2646097960b396224b0041d64734a0821734003682d023190",
+      "public_sha256": "d3cb24b0a88576f2646097960b396224b0041d64734a0821734003682d023190"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.validation.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.validation.csv",
+      "source_sha256": "481bacf89e8b778157a8881724bc1171378ed95f7858bf64e54c70c7b9a99dbf",
+      "public_sha256": "481bacf89e8b778157a8881724bc1171378ed95f7858bf64e54c70c7b9a99dbf"
+    },
+    {
+      "source": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.windows.csv",
+      "public": "results/reference/outputs/bioz_augmentation_multiseed_cases/subject6_seed2030.windows.csv",
+      "source_sha256": "0e1909c4f0e9e100bd85e639411ffcb61f993760b97ab2975621baabd4f3afe5",
+      "public_sha256": "0e1909c4f0e9e100bd85e639411ffcb61f993760b97ab2975621baabd4f3afe5"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.analysis.json",
+      "public": "results/reference/outputs/bioz_metrics_validated.analysis.json",
+      "source_sha256": "f88019a3085345b950f759bbd3a8edd70f54340134cec21a61031b70245472c5",
+      "public_sha256": "2cc184a6a55fd2d04132415c0d29b0e61a3031db725c8256251be1aec1e7b780"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.csv",
+      "source_sha256": "91138e8e477d018052275f81ab1d3946ac4e206d508197caf41b66105fff1f03",
+      "public_sha256": "91138e8e477d018052275f81ab1d3946ac4e206d508197caf41b66105fff1f03"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.environment.json",
+      "public": "results/reference/outputs/bioz_metrics_validated.environment.json",
+      "source_sha256": "693ac9e9a18003a857bc639f4e5da7a75c42f234b01ea979c60aa51b7a9c3848",
+      "public_sha256": "93543c197f33ddaf22c5ad2701e378a0e23183d5cb854a34061859c52866f812"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.masks.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.masks.csv",
+      "source_sha256": "effea7a321ce8e137846ce976d2964ec389b7acb4dcda8dd5ef57bc8ec128a6f",
+      "public_sha256": "effea7a321ce8e137846ce976d2964ec389b7acb4dcda8dd5ef57bc8ec128a6f"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.paired.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.paired.csv",
+      "source_sha256": "af4f5c389bdffd94118223872126a9b082ed00181e4476d9ceaa4338a25f9b7b",
+      "public_sha256": "af4f5c389bdffd94118223872126a9b082ed00181e4476d9ceaa4338a25f9b7b"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.robustness.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.robustness.csv",
+      "source_sha256": "8153bb99661c0405db250956e0fd4e146db5f97652acc78948f8402447d5486f",
+      "public_sha256": "8153bb99661c0405db250956e0fd4e146db5f97652acc78948f8402447d5486f"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.run.json",
+      "public": "results/reference/outputs/bioz_metrics_validated.run.json",
+      "source_sha256": "c492a66a88ce57f019d926309701f192cd158b3c8dc65397dbe81169e41708cb",
+      "public_sha256": "71641684554d97f50817849c559a6f99f1bac05b70a22525dbe341f8024a9c41"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.seeds.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.seeds.csv",
+      "source_sha256": "c57019987e9bf4cd170f20753e899a071a539e0df5852e1bee91835cdea97b11",
+      "public_sha256": "c57019987e9bf4cd170f20753e899a071a539e0df5852e1bee91835cdea97b11"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.selection.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.selection.csv",
+      "source_sha256": "fcbc54fa7afe74ede95cefd74874e0f001c68e8c35945c420542df13f6e4bbf9",
+      "public_sha256": "fcbc54fa7afe74ede95cefd74874e0f001c68e8c35945c420542df13f6e4bbf9"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.selection_summary.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.selection_summary.csv",
+      "source_sha256": "42fb4c9f8969a1006d5815c44214251dd4d7f4aead191cada2e31b8b194d182c",
+      "public_sha256": "42fb4c9f8969a1006d5815c44214251dd4d7f4aead191cada2e31b8b194d182c"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.sensitivity.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.sensitivity.csv",
+      "source_sha256": "c7d209c2dc67341884b0e9d5a8c74c9ffdf902c21dc7cd087d30ab8edf1a35a3",
+      "public_sha256": "c7d209c2dc67341884b0e9d5a8c74c9ffdf902c21dc7cd087d30ab8edf1a35a3"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.sensitivity_summary.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.sensitivity_summary.csv",
+      "source_sha256": "1e0ecc6374404961160ddedf379201228c335d8fd582113cb54e9bb41f478c63",
+      "public_sha256": "1e0ecc6374404961160ddedf379201228c335d8fd582113cb54e9bb41f478c63"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.subjects.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.subjects.csv",
+      "source_sha256": "03353d80ca27bb5a73003bc7c7bbd594842c24c13a63f281ffb66df68f9c248b",
+      "public_sha256": "03353d80ca27bb5a73003bc7c7bbd594842c24c13a63f281ffb66df68f9c248b"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.summary.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.summary.csv",
+      "source_sha256": "8b96c039c6f5428c0734ddd92250a74fba3ea99c9cf57b9c180bc8be4faccb5c",
+      "public_sha256": "8b96c039c6f5428c0734ddd92250a74fba3ea99c9cf57b9c180bc8be4faccb5c"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.training.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.training.csv",
+      "source_sha256": "cd5780925c7014d06e1a8150d4b2f533338f326f8d87958e779b6100e709c744",
+      "public_sha256": "cd5780925c7014d06e1a8150d4b2f533338f326f8d87958e779b6100e709c744"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.validation.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.validation.csv",
+      "source_sha256": "88649ba5efa491babfe524cb01f83211d858118619f4623619f36223e62c815d",
+      "public_sha256": "88649ba5efa491babfe524cb01f83211d858118619f4623619f36223e62c815d"
+    },
+    {
+      "source": "outputs/bioz_metrics_validated.windows.csv",
+      "public": "results/reference/outputs/bioz_metrics_validated.windows.csv",
+      "source_sha256": "c10557fe862f4cd58650bb4782edfd79b76c20093520302613231baf91b94a54",
+      "public_sha256": "c10557fe862f4cd58650bb4782edfd79b76c20093520302613231baf91b94a54"
+    }
+  ]
+}

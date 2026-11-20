@@ -1,0 +1,121 @@
+{
+  "status": "complete",
+  "configuration": {
+    "data": "work/physionet_bioz",
+    "output": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029",
+    "test_subject": "4",
+    "seed": 2029,
+    "max_epochs": 120,
+    "check_every": 5,
+    "steps": 12
+  },
+  "test_subject": "4",
+  "validation_subject": "5",
+  "inner_training_subjects": [
+    "1",
+    "2",
+    "3",
+    "6"
+  ],
+  "outer_training_subjects": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6"
+  ],
+  "real_windows_inner": 200,
+  "real_windows_outer": 280,
+  "test_windows": 60,
+  "synthetic_to_real_ratio": 1,
+  "methods": [
+    "unet",
+    "flow",
+    "diffusion",
+    "cvae",
+    "cgan",
+    "saits"
+  ],
+  "conditions": [
+    "real_only_matched",
+    "real_plus_synthetic"
+  ],
+  "completed_conditions": [
+    "real_only_matched",
+    "real_plus_synthetic"
+  ],
+  "code_sha256": {
+    "synthetic_augmentation.py": "bc23d0d1e2048e13c83a908a4b8305adeb4c692ec6962cb5a7f54b54dc0ebae7",
+    "bioz_inpainting.py": "dad2e913d80b8b35c05fe61252e073c4ce2bf086ec6c2f4d64d920a71415d675",
+    "validated_benchmark.py": "cfabee95bdc0ec56a350677be860f60ee507052104a69f7091e756091973fdd4",
+    "vendor/saits/layers.py": "35371901545fe24445ca0e90b7f9cdfe6fbcce1e82bfab127d1192a7b19a5f59",
+    "vendor/saits/saits.py": "95b314eea16a79dbabff607d2f01a22185a6bf530f20e4c78a932434161c8e65",
+    "vendor/saits/utils.py": "ef12baabedcce24ee589656fecda3f33c88e30df38d91b91eb8035b903bfaafb",
+    "vendor/saits/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "data_sha256": {
+    "work/physionet_bioz/subject6_day1/setup01_baseline/data_trial01_bioz.csv": "7bc12b0d380f687503ab78b82e90f26199f62d87be2879d35754e0b1f4b9c12e",
+    "work/physionet_bioz/subject6_day1/setup01_baseline/data_trial02_bioz.csv": "769a66ff699d99d920efe709ea07dd4e7e0ad0ec3297f6793dfa22fe7b4df7df",
+    "work/physionet_bioz/subject6_day1/setup09_baseline_postSweat/data_trial39_bioz.csv": "623d9331ef8747cb0c609abb543f763d1d085e844f928dd5838d12dfc89c1ff9",
+    "work/physionet_bioz/subject6_day1/setup09_baseline_postSweat/data_trial40_bioz.csv": "805530a5a8f681ab0705c329b2b6fc8bf512c6bcd45e88f831177b3a35ade1ba",
+    "work/physionet_bioz/subject5_day1/setup01_baseline/data_trial01_bioz.csv": "5a6f4fcd07c1fe1dd551b663227aea09ec82e38052f4547501e6797a04b35277",
+    "work/physionet_bioz/subject5_day1/setup01_baseline/data_trial02_bioz.csv": "5decb402499c8576e04e7ea47133345017568e69204f1cc8786a1171ebcb06c3",
+    "work/physionet_bioz/subject5_day1/setup02_baseline/data_trial03_bioz.csv": "3c509fd755ea97f3cb8805569e85519bb786a15b5b6b7c458a2e1d76b386675c",
+    "work/physionet_bioz/subject5_day1/setup02_baseline/data_trial04_bioz.csv": "b80bfccba909380a69baa6151b987d1ff5b43e03734be7ed5824b9b75136130c",
+    "work/physionet_bioz/subject4_day1/setup01_baseline/data_trial01_bioz.csv": "f858c41622fcd98a18be8bbe7f145d645e61f0e4ecc76d96886777f627db8f8e",
+    "work/physionet_bioz/subject4_day1/setup01_baseline/data_trial02_bioz.csv": "85d98852ce57e4c2c58f09e5eeca03359451155a58af7e072fa4d19e8629da07",
+    "work/physionet_bioz/subject4_day1/setup09_rest/data_trial37_bioz.csv": "a31fe46cd562aa8bce190ebe03746baa3481a8e903ee3f89f849807de71a6972",
+    "work/physionet_bioz/subject3_day1/setup01_baseline/data_trial01_bioz.csv": "65b43c20b63c455118587e84d60a4c1d907990e9154c71daab8ee2e8b3e7b6d3",
+    "work/physionet_bioz/subject3_day1/setup01_baseline/data_trial02_bioz.csv": "550255a76882d1d4c81bca663947c2a17418102cdcda0f21d4a8db19729ccca0",
+    "work/physionet_bioz/subject2_day1/setup01_baseline/data_trial01_bioz.csv": "e6ffce05e399f5d7f6c6e6fc36421d4f4d4824c18fab9472dc17d152ab00cc1b",
+    "work/physionet_bioz/subject2_day1/setup01_baseline/data_trial02_bioz.csv": "fa4e9909c67dddb0413f0bf4f2acdbf837be4d9a749de4b7cbca434acf1aac20",
+    "work/physionet_bioz/subject1_day1/setup01_baseline/data_trial01_bioz.csv": "f6682468ad5ef517e5633a2fc79b53fdddab273d08bf80befb11b46c89bd0820",
+    "work/physionet_bioz/subject1_day1/setup01_baseline/data_trial02_bioz.csv": "fe9675d234cc382550ceed24ee83b1ce6b30a7d87793b35a1ead9f244e2b8071"
+  },
+  "synthetic_definition": "Four-harmonic model fit to real training windows only; resampled parameter donors, random phase, frequency and amplitude perturbations, slow modulation, colored stochastic residual. Generated directly on 1250-Hz 10-s native grid; same mask-before-filter preprocessing as real data.",
+  "comparison": "1:1 real/synthetic versus twice-presented real windows; equal dataset size and maximum per-epoch update budget, method-specific real-validation epoch selection.",
+  "scope": "One previously studied test participant, one run seed; exploratory augmentation experiment, not independent cohort confirmation.",
+  "versions": {
+    "torch": "2.9.1+cu128",
+    "numpy": "2.2.4"
+  },
+  "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "execution_code_sha256": {
+    "augmentation_case.py": "825fe6a86f691d1459f936848b8799a4600852abf60c4b440ebe8f38977d9dcb",
+    "augmentation_engine.py": "d006ac40c70269957a39464a9d0933df1ccbe991305e29659fbed880b292dbbe"
+  },
+  "execution": "Batched bitwise-equivalent preprocessing; inactive independent CNN updates omitted with training RNG preserved. FP32 CUDA numerical equivalence checked; no bitwise GPU claim.",
+  "inner_generator": {
+    "source_subjects": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "fit_windows": 200,
+    "generated_windows": 200,
+    "seed": 802029,
+    "synthetic_sha256": "69f537ed9b0dce7fbca25cf60f51b51611c0b8ecaa19d8a8583355500bf6a67b",
+    "filtered_real_median_sd": 30.042308807373047,
+    "filtered_synthetic_median_sd": 29.4210205078125
+  },
+  "outer_generator": {
+    "source_subjects": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "fit_windows": 280,
+    "generated_windows": 280,
+    "seed": 902029,
+    "synthetic_sha256": "41e7a681a3784af01b25042ff0e84dfe524979e40df3beb069a962e725b915f3",
+    "filtered_real_median_sd": 30.252117156982422,
+    "filtered_synthetic_median_sd": 30.072711944580078
+  },
+  "elapsed_seconds": 450.2784998000134,
+  "test_scored_after_all_training": true,
+  "test_records": 108,
+  "test_window_records": 6480
+}

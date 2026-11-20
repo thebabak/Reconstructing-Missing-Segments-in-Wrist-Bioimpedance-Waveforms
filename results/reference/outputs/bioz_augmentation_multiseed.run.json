@@ -1,0 +1,378 @@
+{
+  "status": "complete",
+  "subjects": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "workers": 2,
+  "max_epochs": 120,
+  "conditions": [
+    "real_only_matched",
+    "real_plus_synthetic"
+  ],
+  "methods": [
+    "unet",
+    "flow",
+    "diffusion",
+    "cvae",
+    "cgan",
+    "saits"
+  ],
+  "expected_cases": 30,
+  "cases": [
+    {
+      "subject": "1",
+      "seed": 2026,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2026",
+      "status": "complete",
+      "pid": 23012,
+      "log": "work/bioz_augmentation_multiseed_logs/subject1_seed2026.log",
+      "exit_code": 0,
+      "elapsed_seconds": 686.400392999989
+    },
+    {
+      "subject": "1",
+      "seed": 2027,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2027",
+      "status": "complete",
+      "pid": 52000,
+      "log": "work/bioz_augmentation_multiseed_logs/subject1_seed2027.log",
+      "exit_code": 0,
+      "elapsed_seconds": 543.0215261999983
+    },
+    {
+      "subject": "1",
+      "seed": 2028,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2028",
+      "status": "complete",
+      "pid": 7608,
+      "log": "work/bioz_augmentation_multiseed_logs/subject1_seed2028.log",
+      "exit_code": 0,
+      "elapsed_seconds": 633.3683919000323
+    },
+    {
+      "subject": "1",
+      "seed": 2029,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2029",
+      "status": "complete",
+      "pid": 41692,
+      "log": "work/bioz_augmentation_multiseed_logs/subject1_seed2029.log",
+      "exit_code": 0,
+      "elapsed_seconds": 649.7121173999622
+    },
+    {
+      "subject": "1",
+      "seed": 2030,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject1_seed2030",
+      "status": "complete",
+      "pid": 26116,
+      "log": "work/bioz_augmentation_multiseed_logs/subject1_seed2030.log",
+      "exit_code": 0,
+      "elapsed_seconds": 477.90689490002114
+    },
+    {
+      "subject": "2",
+      "seed": 2026,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2026",
+      "status": "complete",
+      "pid": 22208,
+      "log": "work/bioz_augmentation_multiseed_logs/subject2_seed2026.log",
+      "exit_code": 0,
+      "elapsed_seconds": 834.2267005000031
+    },
+    {
+      "subject": "2",
+      "seed": 2027,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2027",
+      "status": "complete",
+      "pid": 54268,
+      "log": "work/bioz_augmentation_multiseed_logs/subject2_seed2027.log",
+      "exit_code": 0,
+      "elapsed_seconds": 645.7650540999603
+    },
+    {
+      "subject": "2",
+      "seed": 2028,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2028",
+      "status": "complete",
+      "pid": 23768,
+      "log": "work/bioz_augmentation_multiseed_logs/subject2_seed2028.log",
+      "exit_code": 0,
+      "elapsed_seconds": 521.070133100031
+    },
+    {
+      "subject": "2",
+      "seed": 2029,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2029",
+      "status": "complete",
+      "pid": 17012,
+      "log": "work/bioz_augmentation_multiseed_logs/subject2_seed2029.log",
+      "exit_code": 0,
+      "elapsed_seconds": 363.12030629999936
+    },
+    {
+      "subject": "2",
+      "seed": 2030,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject2_seed2030",
+      "status": "complete",
+      "pid": 1888,
+      "log": "work/bioz_augmentation_multiseed_logs/subject2_seed2030.log",
+      "exit_code": 0,
+      "elapsed_seconds": 1180.0996622000239
+    },
+    {
+      "subject": "3",
+      "seed": 2026,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2026",
+      "status": "complete",
+      "pid": 44724,
+      "log": "work/bioz_augmentation_multiseed_logs/subject3_seed2026.log",
+      "exit_code": 0,
+      "elapsed_seconds": 700.5654630999779
+    },
+    {
+      "subject": "3",
+      "seed": 2027,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2027",
+      "status": "complete",
+      "pid": 56624,
+      "log": "work/bioz_augmentation_multiseed_logs/subject3_seed2027.log",
+      "exit_code": 0,
+      "elapsed_seconds": 865.2758748000488
+    },
+    {
+      "subject": "3",
+      "seed": 2028,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2028",
+      "status": "complete",
+      "pid": 53688,
+      "log": "work/bioz_augmentation_multiseed_logs/subject3_seed2028.log",
+      "exit_code": 0,
+      "elapsed_seconds": 548.6165040000342
+    },
+    {
+      "subject": "3",
+      "seed": 2029,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2029",
+      "status": "complete",
+      "pid": 10324,
+      "log": "work/bioz_augmentation_multiseed_logs/subject3_seed2029.log",
+      "exit_code": 0,
+      "elapsed_seconds": 749.4069402000168
+    },
+    {
+      "subject": "3",
+      "seed": 2030,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject3_seed2030",
+      "status": "complete",
+      "pid": 13092,
+      "log": "work/bioz_augmentation_multiseed_logs/subject3_seed2030.log",
+      "exit_code": 0,
+      "elapsed_seconds": 535.0013318000128
+    },
+    {
+      "subject": "4",
+      "seed": 2026,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2026",
+      "status": "complete",
+      "pid": 58472,
+      "log": "work/bioz_augmentation_multiseed_logs/subject4_seed2026.log",
+      "exit_code": 0,
+      "elapsed_seconds": 724.8604799000314
+    },
+    {
+      "subject": "4",
+      "seed": 2027,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2027",
+      "status": "complete",
+      "pid": 26876,
+      "log": "work/bioz_augmentation_multiseed_logs/subject4_seed2027.log",
+      "exit_code": 0,
+      "elapsed_seconds": 726.4558874000213
+    },
+    {
+      "subject": "4",
+      "seed": 2028,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2028",
+      "status": "complete",
+      "pid": 10324,
+      "log": "work/bioz_augmentation_multiseed_logs/subject4_seed2028.log",
+      "exit_code": 0,
+      "elapsed_seconds": 637.7272346999962
+    },
+    {
+      "subject": "4",
+      "seed": 2029,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2029",
+      "status": "complete",
+      "pid": 23152,
+      "log": "work/bioz_augmentation_multiseed_logs/subject4_seed2029.log",
+      "exit_code": 0,
+      "elapsed_seconds": 450.2784998000134
+    },
+    {
+      "subject": "4",
+      "seed": 2030,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject4_seed2030",
+      "status": "complete",
+      "pid": 59664,
+      "log": "work/bioz_augmentation_multiseed_logs/subject4_seed2030.log",
+      "exit_code": 0,
+      "elapsed_seconds": 962.8213663999923
+    },
+    {
+      "subject": "5",
+      "seed": 2026,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2026",
+      "status": "complete",
+      "pid": 26236,
+      "log": "work/bioz_augmentation_multiseed_logs/subject5_seed2026.log",
+      "exit_code": 0,
+      "elapsed_seconds": 640.3299601000035
+    },
+    {
+      "subject": "5",
+      "seed": 2027,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2027",
+      "status": "complete",
+      "pid": 23716,
+      "log": "work/bioz_augmentation_multiseed_logs/subject5_seed2027.log",
+      "exit_code": 0,
+      "elapsed_seconds": 595.9778199000284
+    },
+    {
+      "subject": "5",
+      "seed": 2028,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2028",
+      "status": "complete",
+      "pid": 40852,
+      "log": "work/bioz_augmentation_multiseed_logs/subject5_seed2028.log",
+      "exit_code": 0,
+      "elapsed_seconds": 629.5416819999809
+    },
+    {
+      "subject": "5",
+      "seed": 2029,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2029",
+      "status": "complete",
+      "pid": 7972,
+      "log": "work/bioz_augmentation_multiseed_logs/subject5_seed2029.log",
+      "exit_code": 0,
+      "elapsed_seconds": 477.71702489996096
+    },
+    {
+      "subject": "5",
+      "seed": 2030,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject5_seed2030",
+      "status": "complete",
+      "pid": 45588,
+      "log": "work/bioz_augmentation_multiseed_logs/subject5_seed2030.log",
+      "exit_code": 0,
+      "elapsed_seconds": 496.4618172000046
+    },
+    {
+      "subject": "6",
+      "seed": 2026,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2026",
+      "status": "complete",
+      "pid": 25332,
+      "log": "work/bioz_augmentation_multiseed_logs/subject6_seed2026.log",
+      "exit_code": 0,
+      "elapsed_seconds": 643.6302313000197
+    },
+    {
+      "subject": "6",
+      "seed": 2027,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2027",
+      "status": "complete",
+      "pid": 35240,
+      "log": "work/bioz_augmentation_multiseed_logs/subject6_seed2027.log",
+      "exit_code": 0,
+      "elapsed_seconds": 703.3619288000045
+    },
+    {
+      "subject": "6",
+      "seed": 2028,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2028",
+      "status": "complete",
+      "pid": 50476,
+      "log": "work/bioz_augmentation_multiseed_logs/subject6_seed2028.log",
+      "exit_code": 0,
+      "elapsed_seconds": 473.97595509997336
+    },
+    {
+      "subject": "6",
+      "seed": 2029,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2029",
+      "status": "complete",
+      "pid": 53084,
+      "log": "work/bioz_augmentation_multiseed_logs/subject6_seed2029.log",
+      "exit_code": 0,
+      "elapsed_seconds": 509.6383311999962
+    },
+    {
+      "subject": "6",
+      "seed": 2030,
+      "attempt": 1,
+      "prefix": "outputs/bioz_augmentation_multiseed_cases/subject6_seed2030",
+      "status": "complete",
+      "pid": 22604,
+      "log": "work/bioz_augmentation_multiseed_logs/subject6_seed2030.log",
+      "exit_code": 0,
+      "elapsed_seconds": 511.84691590000875
+    }
+  ],
+  "code_sha256": {
+    "augmentation_sweep.py": "8d06fa872021c0edfd30a1ddeea26b1cfba19d49e50ae5a5011557af75a4fc96",
+    "augmentation_case.py": "825fe6a86f691d1459f936848b8799a4600852abf60c4b440ebe8f38977d9dcb",
+    "augmentation_engine.py": "d006ac40c70269957a39464a9d0933df1ccbe991305e29659fbed880b292dbbe",
+    "synthetic_augmentation.py": "bc23d0d1e2048e13c83a908a4b8305adeb4c692ec6962cb5a7f54b54dc0ebae7",
+    "bioz_inpainting.py": "dad2e913d80b8b35c05fe61252e073c4ce2bf086ec6c2f4d64d920a71415d675",
+    "validated_benchmark.py": "cfabee95bdc0ec56a350677be860f60ee507052104a69f7091e756091973fdd4"
+  },
+  "started_unix": 1795022222.1072984,
+  "protocol": "Each held-out participant, five rotating training-only validation identities via seeds2026-2030; fresh 1:1 synthetic augmentation versus epoch-size-matched real control; cap120, checks5, patience3; refit; three test masks and three gaps.",
+  "pilot": "Earlier single-person pilot informed this expanded experiment; all cases are rerun with the same prespecified simulator and objectives, using numerically checked faster execution. The same six-person cohort is reused.",
+  "completed_cases": 30,
+  "elapsed_seconds": 9735.180703401566
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 13,
+  "full_pipeline_fixture_smoke_test": "passed",
+  "synthetic_signal_counts_reproduced": {
+    "inner": 260,
+    "outer": 300
+  },
+  "selected_epochs_checked": 12,
+  "generator_fits_recomputed_from_training_subjects_only": true,
+  "recomputed_condition_method_schedule_gap_records": 108,
+  "recomputed_window_records": 4320,
+  "checkpoint_model_replays": 12,
+  "primary_manuscript_unchanged": true,
+  "scope": "One real test participant and one seed; does not establish population improvement."
+}
