@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this repository when using the code or recorded numerical results."
 type: software
-title: "Wrist Bioimpedance Reconstruction Benchmark"
+title: "Reconstructing Missing Segments in Wrist Bioimpedance Waveforms"
 authors:
   - family-names: Bayanian
     given-names: Babak
@@ -11,7 +11,7 @@ authors:
     given-names: Khalil
   - family-names: Ghamari
     given-names: Mohammad
-repository-code: "https://github.com/thebabak/wrist-bioz-reconstruction"
-url: "https://github.com/thebabak/wrist-bioz-reconstruction"
+repository-code: "https://github.com/thebabak/Reconstructing-Missing-Segments-in-Wrist-Bioimpedance-Waveforms"
+url: "https://github.com/thebabak/Reconstructing-Missing-Segments-in-Wrist-Bioimpedance-Waveforms"
 version: "0.1.0"
 date-released: "2026-11-21"

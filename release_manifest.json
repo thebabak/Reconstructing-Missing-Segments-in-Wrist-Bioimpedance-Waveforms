@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/thebabak/wrist-bioz-reconstruction",
+  "repository": "https://github.com/thebabak/Reconstructing-Missing-Segments-in-Wrist-Bioimpedance-Waveforms",
   "date": "2026-11-21",
   "scientific_runner_bytes_preserved": true,
   "reference_results": "Original saved numerical records; JSON workspace paths normalized for portability; numerical values and recorded source/data hashes preserved.",

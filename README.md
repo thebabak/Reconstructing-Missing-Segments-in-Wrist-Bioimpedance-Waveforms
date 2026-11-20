@@ -1,4 +1,4 @@
-# Wrist Bioimpedance Reconstruction Benchmark
+# Reconstructing Missing Segments in Wrist Bioimpedance Waveforms
 
 Companion code and numerical records for **Reconstructing Missing Segments in
 Wrist Bioimpedance Waveforms**, by Babak Bayanian, Bahram Tarvirdizadeh,
